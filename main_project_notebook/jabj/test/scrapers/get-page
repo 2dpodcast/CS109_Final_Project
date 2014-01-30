@@ -1,0 +1,26 @@
+#!/bin/bash
+
+url=$1
+
+i=0
+
+tmp=$(mktemp)
+
+while true; do
+    data_fnam=$(printf "%04d" $i)
+    if ! [ -f $data_fnam ]; then
+        break
+    fi
+    : $((++i))
+done
+
+if ! wget -O $tmp $url; then
+    rm $tmp
+    exit 1
+else
+    mv $tmp $data_fnam
+    echo "$data_fnam $url" >> db
+    exit 0
+fi
+
+

@@ -1,0 +1,12 @@
+This directory contains tests and test data for scrapers.  Each test
+has an id, a test script, and an associated input file.  db contains
+mappings of test numbers to the url used to retrieve the sample.
+
+Each test number should also have a t_XXXX.py file (for example, the
+first test was t_0000.py).  Each t_000.py should have two variables,
+"scraper" and "expected".  The top-level test script will run all of
+the tests, passing the data to the scraper and insuring the output is
+expected.
+
+The workflow is to find a page you want to scrape, save it to the next
+numeric ID, and write a test for it.

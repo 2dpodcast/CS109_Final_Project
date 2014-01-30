@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>John Kinley Travel Blog Entries</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Default Description" />
+<meta name="viewport" content="width=device-width, maximum-scale=1" />
+<link rel="icon" href="/pix/favicon.png" type="image/png" />
+<link rel="stylesheet" href="/css/tb.v4.05.css" type="text/css" />
+<!--[if IE]> <link rel="stylesheet" href="/css/tb-v4-ie.css" type="text/css" /> <![endif]-->
+<!--[if lt IE 8.]> <link rel="stylesheet" href="/css/tb-v4-ie7.css" type="text/css" /> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="/css/tb-v4-ie6.css" type="text/css" /> <![endif]-->
+
+
+
+<script type='text/javascript'>
+
+var placemarkers = '(37.7186,-77.3438),(32.2192,-80.6706),(33.8136,-85.7614),(28.7503,-82.5003),(30.1586,-85.6603),(32.7503,-86.7503),(37.7186,-77.3438),(37.7186,-77.3438),(35.5006,-80.0006),(37.7186,-77.3438),(35.7503,-86.2503),(28.7503,-82.5003),(28.7503,-82.5003),(28.7503,-82.5003),(32.7503,-83.5003),(37.7186,-77.3438),(37.7186,-77.3438),(37.7186,-77.3438),(37.7186,-77.3438),(30.1922,-82.6147),(28.7503,-82.5003),(28.7503,-82.5003),(37.7186,-77.3438),(37.7186,-77.3438),(28.7503,-82.5003),(32.7503,-86.7503),(39.096,-102.305),(37.7186,-77.3438),(37.7186,-77.3438),(32.7503,-86.7503),(28.7503,-82.5003),(37.7186,-77.3438),(38.8739,-77.0581),(32.7503,-86.7503),(32.7503,-86.7503),(32.7503,-86.7503),(28.7503,-82.5003),(32.7503,-86.7503),(32.7503,-86.7503),(34.1747,-86.8436),(28.7503,-82.5003),(29.2106,-81.0231),(28.7503,-82.5003),(37.7186,-77.3438),(39.4561,-77.9642),(39.9267,-86.6289),(39.7294,-104.831),(28.7503,-82.5003),(32.335,-80.6925),(39.4561,-77.9642),(38.1944,-95.7425),(43.6575,-71.5008),(43.6669,-71.5003),(44.4668,-68.278),(38.4731,-77.9969),(32.3175,-89.0256),(28.7503,-82.5003),(35.2019,-92.4558),(39.7294,-104.831),(39.7294,-104.831),(28.7503,-82.5003),(28.7503,-82.5003),(28.7503,-82.5003),(39.4561,-77.9642),(39.4561,-77.9642),(40.2503,-83.0003),(43.9442,-90.8128),(30.1531,-85.6114),(28.7503,-82.5003),(27.0994,-82.4544),(28.7503,-82.5003),(38.8339,-104.821),(40.8138,-81.1011),(42.5603,-90.7756),(42.5603,-90.7756),(32.1531,-94.7992),(36.0556,-112.139),(33.5386,-112.185),(32.2217,-110.926),';
+var placedata = '(264512,Getting started on the dream),(271043,Fredericksburg&#44; VA to Hilton Head&#44; SC),(271496,Jacksonville),(272945,St. Joe Peninsula State Park),(274148,Mexico Beach),(274899,Fort Payne),(275621,Home),(277621,Analysis and Summary of Trip),(326071,Our Trip to the Outer Banks),(392200,Getting ready for 2009 Season),(394346,Visiting Family in Tennessee),(395242,Relaxing and eating in Mexico Beach),(395931,Mexico Beach to White Springs),(397188,Visiting the kids in Jacksonville),(397718,Colemans and home),(405545,Summary of 09 Florida Trip),(405559,Virginia Spring Samboree),(412940,Lake Kerr and Army Corps of Engineers),(432394,Summer Camping Trips),(436270,Return to the North Country),(469779,First Grandchild),(471007,Meeting Andrew ),(484382,Helping the newbies),(491012,More Spring shakedown trips),(494942,Second visit to grandson),(495182,House hunting in Mentone),(500005,Visit to family and friends to end trip),(528658,Summer Camping trips),(574100,A NEW BEGINNING),(582245,Our New Home),(582810,Visiting the kids),(590049,Spring &#40;?#41; Shakedown and retirement party),(591086,Retirement!),(606400,Beginning the move),(611179,Moving Companies&#44; tornados&#44; and good-bye),(617857,SLOWLY unpacking and getting set),(622770,Taking a break in Florida),(629351,Why&#44; oh why&#44; Alabama),(649619,Kim comes to visit),(654517,Friends and Family on a Southern swing&#44; Pt 1),(655969,Friends and Family on a Southern swing&#44; Pt 2),(657234,Friends and Family on a Southern swing&#44; Pt 3),(657724,Friends and Family on a Southern swing&#44; Pt 4),(660648,Friends/Family Northern Swing&#44; Pt 1),(663239,Friends/Family Northern Swing&#44; Pt 2),(663291,Friends/Family Northern Swing&#44; Pt 3),(664888,Friends/Family Northern Swing&#44; Pt 4),(694006,Spring Shakedown to Florida),(696931,Spring Shakedown Continues),(724071,Return to New England&#44; Pt 1),(724284,Return to New England&#44; Pt 2),(724458,Return to New England&#44; Pt 3),(724796,Return to New England&#44; Pt 4),(724800,Return to New England&#44; Pt 5),(727697,Return to New England&#44; Pt. 6),(737959,More Family Visits:  In NC and FL),(739929,More Family Visits:  In NC and FL&#44; Pt 2),(749839,Family vist up North&#44; Pt. 1),(751277,Family visit up north&#44; Pt. 2),(752845,Family visit up North&#44; Pt. 3),(756061,Meeting the New Grandson),(756844,More Time in Florida),(776137,Quick trip to FL &#40;without RV#41;),(783518,Big Event in WV),(784868,The Wedding),(787484,Family events after the wedding),(788114,On &#40;to#41; Wisconsin),(791557,In the Land of Lincoln),(803042,Florida in summer&#44; Pt 1),(803436,Florida in summer&#44; Pt 2),(804641,Florida in summer&#44; Pt 3),(808218,Oh give me a home&#44; where the buffalo roam--Pt. 1),(809194,Oh give me a home&#44; where the buffalo roam--Pt. 2),(810236,Oh give me a home&#44; where the buffalo roam--Pt. 3),(810522,We\'ll be Comin\' Round the Mountain&#44; When we come....),(811114,Oh give me a home&#44; where the buffalo roam--Pt. 4),(813290,Big...BIG...BIG WOW!!!),(813433,Oh give me a home&#44; where the buffalo roam--Pt. 5),(814203,We\'re moving...again!!)';
+var line = '';
+
+</script>
+
+<script type="text/javascript" src="/js/fb.js"></script>
+</head>
+<body class="home" >
+<div class="wrapper">
+<div class='inner'>
+
+<div id="header"><div class="headtop"><ul class="navigation"><li><a href="/join.php">Create a Travel Blog</a><li><a href="/Bloggers/">Bloggers</a><li><a href="/latest.html">Blogs</a><li><a href="/Photos/">Photos</a><li><a href="/Wallpaper/">Wallpaper</a><li><a href="/Travel-Guide/">Travel Guide</a><li><a href="/travel-photos.html">Travel Photos</a><li><a href="/Books/">Books</a></ul><form class="search-box" method='GET' action="/search.html" style='float:right;'><input type="text" id="search-top" name="q" value="Search Travel Blog:" onfocus="if (this.value == 'Search Travel Blog:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search Travel Blog:';}" /><input type='hidden' name='cx' value='partner-pub-1069055037486869:yd2db5swmj2'><input type='hidden' name='sa' value='Search'><input type='hidden' name='siteurl' value='www.travelblog.org/search.html#720'><input type='hidden' name='cof' value='FORID:10'><input type="submit" id="submit-search-top" value="" /></form><a class='user_hide fblogin' href='https://www.travelblog.org/interface/facebook/oauth.php' title='Sign in with Facebook'><img src='/pix/dots/facebook.gif' title='Facebook Icon'> Sign In</a><br class='clear'><span class='clearfix'></span></div><div class='head'><div id='login_form' class='login_form' style='float:right'><form id="login" action='https://www.travelblog.org/Admin/login.php' method='POST'><input type="text" id="login_email" name="email" value="" placeholder='email@example.com'><input type="password" id="login_password" name="password" value="" placeholder='password'><input type='hidden' name='back_url' id='back_url'><input type="submit" id="login_button" class="tb_button" value="Login"></form></div><a href='/' class='logo'><img class='logo' src='/pix/v4/logo.200.png' title='Travel Blog'></a><br class='clearer'><div class='teaser'><a href='/join.php'><span class='title'>Create</span> a travelblog</a></div><div class='teaser'><a href='/Services/travel-insurance.html'><span class='title'>Great Deals On</span> Travel Insurance</a></div><div class='teaser'><a href='/Forum/'><span class='title'>Discuss Travel</span> in our forums</a></div><br class='clear'><span class='clearfix'></span></div><div class="nav2"><div class='navwrap'><ul class='navigation continents'><li><a href="/Africa/">Africa</a><li><a href="/Antarctica/Antarctica/">Antarctica</a><li><a href="/Asia/">Asia</a><li><a href="/Central-America-Caribbean/">C. America &amp; Caribbean</a><li><a href="/Europe/">Europe</a><li><a href="/Middle-East/">Middle East</a><li><a href="/North-America/">N. America</a><li><a href="/Oceania/">Oceania</a><li><a href="/Oceans-and-Seas/">Oceans &amp; Seas</a><li><a href="/South-America/">S. America</a></ul></div><br class='clear'><span class='clearfix'></span></div><div id="fb-root"></div></div>
+
+<div class='se_intercept' style='display:none'></div>
+
+
+<div class=breadcrumbs><a href='/'>TravelBlog</a> &raquo; <a href='/Bloggers/jdkinley/'>jdkinley</a> &raquo; Blog Map</div>
+<div class="left_60pc" >
+<div class='std ' id='content'>
+<div id="mapcontainer" style="width:100%;height:550px;"></div>
+<div style='display:none'>Mouse: <span id=mouse_coords>0,0</span><span id=total_dist_km>0</span><span id=total_dist_miles>0</span></div>
+<br style='clear:both;'>
+<div class='gmap_control'>
+	<form name="mouse" id="mouse" method="post" action="/gmaps/create.html">
+		<div style='font-size:10px;color&#999;'>
+			Mouse: <span id=mouse_x>0</span>,<span id=mouse_y>0</span>
+			<div style='display:none;'><br><span id=mouse_dist>0</span><span id=units>m</span></div>
+		</div>
+		<br>
+		<input name="fit" id="fit" value="Fit All Points" onclick="fit_route();" type="button"><br>
+
+		<div id='cms_12649' class='cms_block'>Blog entries plotted by longitude and latitude. <br><br><b>Current limitations.</b>
+<br><br>
+Shows the newest entry only from locations with many entries.
+<br>Best guess on locations - some are just plain wrong! (eg. Hawaii)<span class='cms_edit_span' data-id='12649' data-trust='8' data-key='12649'></span></div>
+	</form>
+</div>
+				<br class='clear'>
+			</div>
+			
+		</div>
+
+		<div class="right_40pc">
+			<div class='std' id='sidebar'>
+				 <div class="article_panel"><div class="article_head"><a href='/Bloggers/jdkinley/'>John Kinley</a></div><div class="article_body">    <div class='blogger_mid_pic'><a href='/Bloggers/jdkinley/'><img src='http://photos.travelblog.org/Photos/68416/t-68416-0.jpg' alt='jdkinley'><br>jdkinley</a></div>    ... <a href='/Bloggers/jdkinley/'>full info</a>    <hr class='blog_hr'><table class='profile'><tr><td class='tr'>Joined<td>April 9th 2008	<td class='tr'><a href='/Bloggers/jdkinley/Trips/'>Trips</a><td><a href='/Bloggers/jdkinley/Trips/'>1</a><tr><td class='tr'>Last Login<td>November 22nd 2013 	<td class='tr'><a href='/Bloggers/jdkinley/social.html'>Followers</a><td><a href='/Bloggers/jdkinley/social.html'>0</a><tr><td class='tr'>Status<td>BLOGGER	<td class='tr'><a href='/Bloggers/jdkinley/social.html'>Follows</a><td><a href='/Bloggers/jdkinley/social.html'>0</a><tr><td class='tr'>Blogs<td>79 	<td class='tr'><a href='/Bloggers/jdkinley/Guestbook/'>Guestbook</a><td><a href='/Bloggers/jdkinley/Guestbook/'>88</a><tr><td class='tr'>Photos<td>704 	<td class='tr'><a href='/Bloggers/jdkinley/forum_posts.html'>Forum Posts</a><td><a href='/Bloggers/jdkinley/forum_posts.html'>10</a></table></div><div class="article_footer"></div></div><div class='article_head'>Options</div><div class='article_body'>		<div class='blogger_buttons'>			<a href='/browsers.html' onclick='dialog("/Utils/message.php?to_user_id=68416&amp;popped=1","tbmessage",600,600);return false;' title='Send a Private Message to John Kinley' rel='nofollow'>Private Message</a>			<a href='#' onclick='dialog("/Utils/alert.php?blogger_id=68416&amp;popped=1","tbalert",400,500);return false;' title="Get an email each time John Kinley updates this blog." rel='nofollow'>Subscribe</a>						<a href='/Bloggers/jdkinley/map.html'>Blog Map</a>			<a href='/Bloggers/jdkinley/search.html'>Search Blogs</a>			<a href='/Social/add_rel.php?to_id=68416' onclick='dialog("/Social/add_rel.php?to_id=68416&amp;popped=1",450,450); return false;' title='Click to Start following jdkinley' style='display:none;' id='recommend_button' class='cms_recommend' data-followers=''>Follow <b>+</b> (0)</a>					</div><br class='clear'></div><div class='article_footer'><table class='xinfo'><tr><td title='copy and paste anywhere in TravelBlog'>TB Code:<td>[blogger=68416]</table></div> <div class='article_head'>Blogged From</div><div class='article_body center'><a href='/Bloggers/jdkinley/map.html' style='margin:10px auto;'><img src='/VC/vcmini-us.png' alt='Visited Countries' title='Where jdkinley has written about.' style='border:0;' width=197 height=107></a><br style='clear:both;'></div><div class='article_footer'></div><br style='clear:both;'>
+				<br class='clear'>
+			</div>
+		</div>
+		<br class='clear'>
+		<div class=breadcrumbs><a href='/'>TravelBlog</a> &raquo; <a href='/Bloggers/jdkinley/'>jdkinley</a> &raquo; Blog Map</div>
+
+<br class='clear'><span class='clearfix'></span>
+		<span id="cms_details">Tot: 0.169s; Tpl: 0.006s; cc: 13; qc: 45; dbt: 0.0387s; 45; m:apollo w:www (50.28.60.10); sld: 1;
+<span class='cms_age' data-value='1385237410'></span>; mem: 6.6mb</span>
+
+		<div id="footer">
+			<div class="footer gb"><div class='quarter fl_left'><ul class='bullets'><li><a href="http://www.travelblog.org/">Home</a><li><a href="/about.html">About Us</a><li><a href="/privacy.html">Privacy Policy</a><li><a href="/tos.html">Terms of Service</a></ul></div><div class='quarter fl_left'><ul class='bullets'><li><a href="/join.php">Join Us</a><li><a href="/Utils/contact.php">Contact Us</a><li><a href="/advertising.html">Advertising</a><li><a href="/Cool-Stuff/">Cool Stuff</a></ul></div><div class='quarter fl_left'><ul class='bullets'><li><a href="/Services/travel-insurance.html">Travel Insurance</a><li><a href="/Travel-Guide/">Travel Guide</a><li><a href="/World/">World Facts</a><li><a href="/Cameras/">Cameras</a></ul></div><div class='quarter fl_left' style='text-align:right'><img class='logo_footer' src='/pix/v4/logo.darkbg.sml.png' alt='Travel Blog'></div><br class='clear'><div class="copyright"><ul class="social-links"><li class="rss"><a href="http://www.travelblog.org/rss/latest.xml" target="_blank">RSS</a><li class="twitter"><a href="http://twitter.com/travelblog_org" target="_blank">Twitter</a><li class="facebook"><a href="http://www.facebook.com/travelblog.org" target="_blank">Facebook</a></ul>&copy; 2013 TravelBlog.org &amp; Bloggers</div></div>
+		</div>
+	</div>
+</div>
+<script>var head_conf = { screens: [1181,1075,1021,998,851,819,771,600,470] };</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src='/js/cache/public.js?v=1.01'></script>
+<script>
+$(document).ready(function() {
+	tb_ready();
+	
+});
+</script>
+
+<script src='/js/ajax.js'></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script src='/js/gmaps_utils_v3.1.js'></script>
+<script src='/js/gmaps_display_v3.1.js'></script><script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-542241-1']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+var msie7=false;
+</script><!--[if lt IE 8.]>
+<script>
+msie7=true
+</script>
+<![endif]-->
+<script>
+function on_interact() {
+	if (!msie7) $('div.like_us').each(function() {
+			like_us(this);
+	});
+	
+	if (typeof cms_data == 'function') {cms_data();}
+	if (typeof edit_links == 'function') {edit_links();}
+	if (typeof page_interact == 'function') {page_interact();}
+	
+}
+var interacted = false;
+$('body').bind('mouseenter mouseover mousemove click focus scroll touchstart',function() {
+	if (interacted == false) {
+		interacted = true; 
+		$('body').unbind('mouseenter mouseover mousemove click focus scroll touchstart');
+		on_interact();
+	}
+});
+
+</script>
+
+</body>
+</html>

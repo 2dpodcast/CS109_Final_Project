@@ -1,0 +1,1555 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="icon" href="http://c1.tacdn.com/favicon.ico" type="image/x-icon"/>
+<script type='text/javascript'>
+window.onerror = function(msg, url, line) {
+if(typeof js_error_array == 'undefined') {
+js_error_array = [];
+}
+js_error_array[js_error_array.length] = {'msg': msg, 'script_url': url, 'line': line};
+return true;
+};
+</script>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Travel Forum, Discussion Board for Talk and Chat - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta property="og:image" content="http://c1.tacdn.com/img2/postimg.jpg" height="150px" width="150px"/>
+<meta name="keywords" content="attraction, activity, things to do, advice, attractions, vacation, reviews, travel"/>
+<meta name="description" content="Discuss travel with TripAdvisor travelers. Free travel forum for thousands of destinations."/>
+<link rel="alternate" hreflang="en" href="http://www.tripadvisor.com/ForumHome"/>
+<link rel="alternate" hreflang="en-GB" href="http://www.tripadvisor.co.uk/ForumHome"/>
+<link rel="alternate" hreflang="en-CA" href="http://www.tripadvisor.ca/ForumHome"/>
+<link rel="alternate" hreflang="it" href="http://www.tripadvisor.it/ForumHome"/>
+<link rel="alternate" hreflang="es" href="http://www.tripadvisor.es/ForumHome"/>
+<link rel="alternate" hreflang="de" href="http://www.tripadvisor.de/ForumHome"/>
+<link rel="alternate" hreflang="fr" href="http://www.tripadvisor.fr/ForumHome"/>
+<link rel="alternate" hreflang="ja" href="http://www.tripadvisor.jp/ForumHome"/>
+<link rel="alternate" hreflang="en-IN" href="http://www.tripadvisor.in/ForumHome"/>
+<link rel="alternate" hreflang="sv" href="http://www.tripadvisor.se/ForumHome"/>
+<link rel="alternate" hreflang="nl" href="http://www.tripadvisor.nl/ForumHome"/>
+<link rel="alternate" hreflang="pt" href="http://www.tripadvisor.com.br/ForumHome"/>
+<link rel="alternate" hreflang="tr" href="http://www.tripadvisor.com.tr/ForumHome"/>
+<link rel="alternate" hreflang="da" href="http://www.tripadvisor.dk/ForumHome"/>
+<link rel="alternate" hreflang="es-MX" href="http://www.tripadvisor.com.mx/ForumHome"/>
+<link rel="alternate" hreflang="en-IE" href="http://www.tripadvisor.ie/ForumHome"/>
+<link rel="alternate" hreflang="ar" href="http://www.tripadvisor.com.eg/ForumHome"/>
+<link rel="alternate" hreflang="el" href="http://www.tripadvisor.com.gr/ForumHome"/>
+<link rel="alternate" hreflang="en-AU" href="http://www.tripadvisor.com.au/ForumHome"/>
+<link rel="alternate" hreflang="en-MY" href="http://www.tripadvisor.com.my/ForumHome"/>
+<link rel="alternate" hreflang="en-SG" href="http://www.tripadvisor.com.sg/ForumHome"/>
+<link rel="alternate" hreflang="es-AR" href="http://www.tripadvisor.com.ar/ForumHome"/>
+<link rel="alternate" hreflang="es-CL" href="http://www.tripadvisor.cl/ForumHome"/>
+<link rel="alternate" hreflang="es-CO" href="http://www.tripadvisor.co/ForumHome"/>
+<link rel="alternate" hreflang="es-PE" href="http://www.tripadvisor.com.pe/ForumHome"/>
+<link rel="alternate" hreflang="es-VE" href="http://www.tripadvisor.com.ve/ForumHome"/>
+<link rel="alternate" hreflang="in" href="http://www.tripadvisor.co.id/ForumHome"/>
+<link rel="alternate" hreflang="ko" href="http://www.tripadvisor.co.kr/ForumHome"/>
+<link rel="alternate" hreflang="no" href="http://no.tripadvisor.com/ForumHome"/>
+<link rel="alternate" hreflang="pl" href="http://pl.tripadvisor.com/ForumHome"/>
+<link rel="alternate" hreflang="ru" href="http://www.tripadvisor.ru/ForumHome"/>
+<link rel="alternate" hreflang="th" href="http://th.tripadvisor.com/ForumHome"/>
+<link rel="alternate" hreflang="zh-Hant" href="http://www.tripadvisor.com.tw/ForumHome"/>
+<script type="text/javascript">
+(function () { /* ensure that console.log is a valid function */
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})()
+var pageInit = new Date();
+var hideOnLoad = new Array();
+</script>
+<script type="text/javascript">
+var jsGlobalMonths =     new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalMonthsAbbrev =     new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
+var jsGlobalDaysAbbrev =     new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =     new Array("S","M","T","W","T","F","S");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var DATE_PICKER_CLASSIC_FORMAT = "MM/dd/yyyy";
+var DATE_PICKER_META_FORMAT = "EEE, MMM d";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");}
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;}
+</script>
+<script type="text/javascript">
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+currencySymbol["USD"] = new Array("$", false);
+currencySymbol["USDS"] = new Array("$", false);
+currencySymbol["GBP"] = new Array("£", false);
+currencySymbol["EUR"] = new Array("€", false);
+currencySymbol["CAD"] = new Array("CAD ", false);
+currencySymbol["CHF"] = new Array("CHF ", false);
+currencySymbol["AUD"] = new Array("AUD ", false);
+currencySymbol["JPY"] = new Array("JPY", false);
+currencySymbol["RMB"] = new Array("CNY", false);
+currencySymbol["INR"] = new Array("INR", false);
+currencySymbol["SEK"] = new Array("SEK", false);
+currencySymbol["BRL"] = new Array("R$", false);
+currencySymbol["TRY"] = new Array("TL", false);
+currencySymbol["DKK"] = new Array("kr.", false);
+currencySymbol["MXN"] = new Array("MXN", false);
+currencySymbol["TWD"] = new Array("TWD", false);
+currencySymbol["HKD"] = new Array("HKD", false);
+currencySymbol["NOK"] = new Array("NOK", false);
+currencySymbol["PLN"] = new Array("PLN", false);
+currencySymbol["AED"] = new Array("AED", false);
+currencySymbol["AFN"] = new Array("AFN", false);
+currencySymbol["ALL"] = new Array("ALL", false);
+currencySymbol["AMD"] = new Array("AMD", false);
+currencySymbol["ANG"] = new Array("ANG", false);
+currencySymbol["AOA"] = new Array("AOA", false);
+currencySymbol["ARS"] = new Array("ARS", false);
+currencySymbol["AWG"] = new Array("AWG", false);
+currencySymbol["AZN"] = new Array("AZN", false);
+currencySymbol["BAM"] = new Array("BAM", false);
+currencySymbol["BBD"] = new Array("BBD", false);
+currencySymbol["BDT"] = new Array("BDT", false);
+currencySymbol["BGN"] = new Array("BGN", false);
+currencySymbol["BHD"] = new Array("BHD", false);
+currencySymbol["BIF"] = new Array("BIF", false);
+currencySymbol["BMD"] = new Array("BMD", false);
+currencySymbol["BND"] = new Array("BND", false);
+currencySymbol["BOB"] = new Array("BOB", false);
+currencySymbol["BSD"] = new Array("BSD", false);
+currencySymbol["BTN"] = new Array("BTN", false);
+currencySymbol["BWP"] = new Array("BWP", false);
+currencySymbol["BYR"] = new Array("BYR", false);
+currencySymbol["BZD"] = new Array("BZD", false);
+currencySymbol["CDF"] = new Array("CDF", false);
+currencySymbol["CLP"] = new Array("CL$", false);
+currencySymbol["COP"] = new Array("CO$", false);
+currencySymbol["CRC"] = new Array("CRC", false);
+currencySymbol["CVE"] = new Array("CVE", false);
+currencySymbol["CZK"] = new Array("CZK", false);
+currencySymbol["DJF"] = new Array("DJF", false);
+currencySymbol["DOP"] = new Array("DOP", false);
+currencySymbol["DZD"] = new Array("DZD", false);
+currencySymbol["EEK"] = new Array("EEK", false);
+currencySymbol["EGP"] = new Array("EGP", false);
+currencySymbol["ERN"] = new Array("ERN", false);
+currencySymbol["ETB"] = new Array("ETB", false);
+currencySymbol["FJD"] = new Array("FJD", false);
+currencySymbol["FKP"] = new Array("FKP", false);
+currencySymbol["GEL"] = new Array("GEL", false);
+currencySymbol["GHS"] = new Array("GHS", false);
+currencySymbol["GIP"] = new Array("GIP", false);
+currencySymbol["GMD"] = new Array("GMD", false);
+currencySymbol["GNF"] = new Array("GNF", false);
+currencySymbol["GTQ"] = new Array("GTQ", false);
+currencySymbol["GYD"] = new Array("GYD", false);
+currencySymbol["HNL"] = new Array("HNL", false);
+currencySymbol["HRK"] = new Array("HRK", false);
+currencySymbol["HTG"] = new Array("HTG", false);
+currencySymbol["HUF"] = new Array("HUF", false);
+currencySymbol["IDR"] = new Array("Rp.", false);
+currencySymbol["ILS"] = new Array("ILS", false);
+currencySymbol["IQD"] = new Array("IQD", false);
+currencySymbol["IRR"] = new Array("IRR", false);
+currencySymbol["ISK"] = new Array("ISK", false);
+currencySymbol["JMD"] = new Array("JMD", false);
+currencySymbol["JOD"] = new Array("JOD", false);
+currencySymbol["KES"] = new Array("KES", false);
+currencySymbol["KGS"] = new Array("KGS", false);
+currencySymbol["KHR"] = new Array("KHR", false);
+currencySymbol["KMF"] = new Array("KMF", false);
+currencySymbol["KRW"] = new Array("KRW", false);
+currencySymbol["KWD"] = new Array("KWD", false);
+currencySymbol["KYD"] = new Array("KYD", false);
+currencySymbol["KZT"] = new Array("KZT", false);
+currencySymbol["LAK"] = new Array("LAK", false);
+currencySymbol["LBP"] = new Array("LBP", false);
+currencySymbol["LKR"] = new Array("LKR", false);
+currencySymbol["LRD"] = new Array("LRD", false);
+currencySymbol["LSL"] = new Array("LSL", false);
+currencySymbol["LTL"] = new Array("LTL", false);
+currencySymbol["LVL"] = new Array("LVL", false);
+currencySymbol["LYD"] = new Array("LYD", false);
+currencySymbol["MAD"] = new Array("MAD", false);
+currencySymbol["MDL"] = new Array("MDL", false);
+currencySymbol["MGA"] = new Array("MGA", false);
+currencySymbol["MKD"] = new Array("MKD", false);
+currencySymbol["MNT"] = new Array("MNT", false);
+currencySymbol["MOP"] = new Array("MOP", false);
+currencySymbol["MRO"] = new Array("MRO", false);
+currencySymbol["MUR"] = new Array("MUR", false);
+currencySymbol["MVR"] = new Array("MVR", false);
+currencySymbol["MWK"] = new Array("MWK", false);
+currencySymbol["MYR"] = new Array("RM", false);
+currencySymbol["MZN"] = new Array("MZN", false);
+currencySymbol["NAD"] = new Array("NAD", false);
+currencySymbol["NGN"] = new Array("NGN", false);
+currencySymbol["NIO"] = new Array("NIO", false);
+currencySymbol["NPR"] = new Array("NPR", false);
+currencySymbol["NZD"] = new Array("$", false);
+currencySymbol["OMR"] = new Array("OMR", false);
+currencySymbol["PAB"] = new Array("PAB", false);
+currencySymbol["PEN"] = new Array("S/.", false);
+currencySymbol["PGK"] = new Array("PGK", false);
+currencySymbol["PHP"] = new Array("PHP", false);
+currencySymbol["PKR"] = new Array("PKR", false);
+currencySymbol["PYG"] = new Array("PYG", false);
+currencySymbol["QAR"] = new Array("QAR", false);
+currencySymbol["RON"] = new Array("RON", false);
+currencySymbol["RSD"] = new Array("RSD", false);
+currencySymbol["RUB"] = new Array("RUB", false);
+currencySymbol["RWF"] = new Array("RWF", false);
+currencySymbol["SAR"] = new Array("SAR", false);
+currencySymbol["SBD"] = new Array("SBD", false);
+currencySymbol["SCR"] = new Array("SCR", false);
+currencySymbol["SGD"] = new Array("S$", false);
+currencySymbol["SHP"] = new Array("SHP", false);
+currencySymbol["SLL"] = new Array("SLL", false);
+currencySymbol["SOS"] = new Array("SOS", false);
+currencySymbol["SRD"] = new Array("SRD", false);
+currencySymbol["STD"] = new Array("STD", false);
+currencySymbol["SZL"] = new Array("SZL", false);
+currencySymbol["THB"] = new Array("THB", false);
+currencySymbol["TJS"] = new Array("TJS", false);
+currencySymbol["TMT"] = new Array("TMT", false);
+currencySymbol["TND"] = new Array("TND", false);
+currencySymbol["TOP"] = new Array("TOP", false);
+currencySymbol["TTD"] = new Array("TTD", false);
+currencySymbol["TZS"] = new Array("TZS", false);
+currencySymbol["UAH"] = new Array("UAH", false);
+currencySymbol["UGX"] = new Array("UGX", false);
+currencySymbol["UYU"] = new Array("UYU", false);
+currencySymbol["UZS"] = new Array("UZS", false);
+currencySymbol["VEF"] = new Array("Bs.F", false);
+currencySymbol["VND"] = new Array("VND", false);
+currencySymbol["VUV"] = new Array("VUV", false);
+currencySymbol["WST"] = new Array("WST", false);
+currencySymbol["XAF"] = new Array("XAF", false);
+currencySymbol["XCD"] = new Array("XCD", false);
+currencySymbol["XOF"] = new Array("XOF", false);
+currencySymbol["XPF"] = new Array("XPF", false);
+currencySymbol["YER"] = new Array("YER", false);
+currencySymbol["ZAR"] = new Array("R", false);
+currencySymbol["ZMK"] = new Array("ZMK", false);
+currencySymbol["ZWL"] = new Array("ZWL", false);
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe\'re sorry for the inconvenience...we\'ll be back soon.";
+var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your TripAdvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "http://c1.tacdn.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to TripAdvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var JS_NMN_Timeout_title = "Do you want to keep trying?";
+var JS_NMN_Timeout_msg = "It is taking longer than expected to get your location.";
+var JS_NMN_Error_title = "Location error";
+var JS_NMN_Error_msg   = "There has been an error in trying to determine your location";
+var JS_KeepTrying = "Keep Trying";
+var JS_TryAgain   = "Try Again";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away.";   var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var js_invalid_dates_text_new = "Please enter dates to check rates"; var js_invalid_dates_text_new2 = "Please enter dates to show prices";
+var qcErrorImage = '<center><img src="http://c1.tacdn.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://c1.tacdn.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://c1.tacdn.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://c1.tacdn.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://c1.tacdn.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://c1.tacdn.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var isTakeOver = false;
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var mapChannel = "ta.PRODUCTION";
+var bingMapsLang = "en".toLowerCase();
+var bingMapsCountry = "US".toLowerCase();
+var bingMapsBaseUrl = "http://www.bing.com/maps/default.aspx?cc=us&";
+var googleMapsBaseUrl = "http://maps.google.com/?";
+var yandexMapsBaseUrl = "http://maps.yandex.com";
+var serverPool = "T";
+var reg_overhaul = true;
+var posLocale = "en_US";
+var cssPhotoViewerAsset = "http://c1.tacdn.com/css2/photos_with_inline_review-v13299900884b.css";
+var jsPhotoViewerAsset = 'http://c1.tacdn.com/js3/src/ta/photos/Viewer-v12805968229b.js';
+var jsPhotoViewerTALSOAsset = 'http://c1.tacdn.com/js3/src/TALSO-v112862410b.js';
+var jsJWPlayerHelperAsset = 'http://c1.tacdn.com/js3/src/ta/media/jwplayerHelper-v1995955711b.js';
+</script>
+<script type="text/javascript">
+var IS_DEBUG = false;
+var CDNHOST = "http://c1.tacdn.com";
+var MEDIA_HTTP_BASE = "http://media-cdn.tripadvisor.com/media/";
+</script>
+<script type="text/javascript">
+var VERSION_MAP = {
+"ta-widgets-typeahead.js": "http://c1.tacdn.com/js3/ta-widgets-typeahead-c-v12728435801b.js",
+"ta-media.js": "http://c1.tacdn.com/js3/ta-media-c-v1851926438b.js"
+}
+</script>
+<script type="text/javascript">
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "191";
+var pageServlet = "ForumHome";
+var crPageServlet = "ForumHome";
+var cdnHost = "http://c1.tacdn.com";
+var userLoggedIn = false;
+</script>
+<script type="text/javascript">
+var migrationMember = false;
+var savesEnable = false;
+var flagsUrl = '/ForumHome';
+var noPopClass = "no_cpu";
+var flagsSettings = [
+];
+var isIPad = false;
+var isTabletOnFullSite = false;
+var tabletOnFullSite = false;
+var lang_Close  = "Close";
+var isSmartdealBlueChevron = false;
+var img_loop    = "http://c1.tacdn.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "";
+var modelLocId = "";
+var gClient = 'gme-tripadvisorinc';
+var gKey = '';
+var gLang = '';
+var mapsJs = 'http://c1.tacdn.com/js3/ta-maps-bing-c-v11451081687b.js';
+var mapsJsLite = 'http://c1.tacdn.com/js3/lib/TAMap-v12716202300b.js';
+var memoverlayCSS = 'http://c1.tacdn.com/css2/pages/memberoverlay-v11425099229b.css';
+var flagsFlyoutCSS = 'http://c1.tacdn.com/css2/overlays/flags/flags_flyout-v12311564600b.css';
+var emailHotelCSS = 'http://c1.tacdn.com/css2/t4b/emailhotel-v1319357716b.css';
+var sameGeoActivityCSS = 'http://c1.tacdn.com/css2/modules/same_geo_activity-v13269758104b.css';
+var passportStampsCSS = 'http://c1.tacdn.com/css2/modules/passport_stamps-v11996473260b.css';
+var wiFriHasMember =  false  ;
+var JS_SECURITY_TOKEN = "AAABQn1emWoOqHui8pRW/EFtfUsDSMZOk3UbgQ==";
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+var PXL8_JS_SRC = "http://cdn.adrta.com/aa.js#tad;paid=dfp;avid=1;caid=2;";
+</script>
+<script type="text/javascript">
+var freshVSTrackingCookie = true;         </script>
+<script type='text/javascript' src='http://c1.tacdn.com/js3/tripadvisor-c-v11908023370b.js'></script>
+<script type="text/javascript">var taSecureToken = "AAABQn1emWoOqHui8pRW/EFtfUsDSMZOk3UbgQ=="</script>
+<script type="text/javascript">
+var geoParam = "&geo=";
+</script>
+<link rel='stylesheet' type='text/css' media='screen, print' href='http://c1.tacdn.com/css2/universal_new-v13287940824b.css'/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://c1.tacdn.com/css2/pages/forumhome-v11024566611b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://c1.tacdn.com/css2/modules/checkrates_2col-v14065976836b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://c1.tacdn.com/css/brandCompat.css"/>
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" media="screen, print" href="http://c1.tacdn.com/css2/winIE6-v13177518358b.css" />
+        <![endif]-->
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" media="screen, print" href="http://c1.tacdn.com/css2/winIE7-v12468927065b.css" />
+        <![endif]-->
+<script type="text/javascript" src="http://c1.tacdn.com/js/tripcompat.js"></script>
+<script type="text/javascript">
+function showCascadeSearch(sHotelID, bFromPop, sLinkType, sArea) {
+if(sHotelID == null || sHotelID == '') {return;}
+var tgtUrl = "/HotelDateSearch?d=" + sHotelID + "&returnTo=__2F__ForumHome&fromPop=" + bFromPop;
+tgtUrl = tgtUrl + "&area=" + sArea;
+var sFromSource = "ForumHome";
+if(sFromSource !="") {
+if(sLinkType && sLinkType != "") {sFromSource += sLinkType;}
+tgtUrl += "&from=" + sFromSource;
+}
+var w = window.open ( tgtUrl, "CascadeSearch", "toolbar=0,resizable=1,menubar=0,location=0,status=0,scrollbars=1,width=245,height=610,screenX=5,screenY=5,left=5,top=5");
+if (w != null) {
+w.opener = self;
+w.focus();
+}
+}
+</script>
+<style type="text/css">
+body{}
+@media all and (min-width: 983px) {
+#GUTTER_CONTAINER{ overflow-x: hidden; }
+}
+</style>
+<!-- web48b.b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://c1.tacdn.com/js3/src/trsupp-v1283141723b.js"></script>
+</head>
+<body class="ltr domn_en_US lang_en globalNav2011_reset js_logging">
+<div id="fb-root"></div>
+<div style="width:973px; margin:0 auto 20px; padding:5px; background-color:#ffe5a5; font-size:.75em;">
+<div style="padding:6px 0 8px 79px;background: url(http://c1.tacdn.com/img2/icons/64/bv_alert.gif) 12px 2px no-repeat;line-height:167.5%;">
+<span>
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+</span>
+<span dir="ltr">
+<b>Windows:</b>
+<span class="taLnk" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="taLnk" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>,
+<span class="taLnk" onClick="ta.util.ASDF.asdfPopup('q5FyiiycV8LnGEiaV')">Google Chrome</span>.
+<b>Mac:</b>
+<span class="taLnk" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</span>
+</div>
+</div>
+<div id="iframediv"></div>
+<div id="PAGE" class=" non_hotels_like desktop">
+<div id="HEAD" class="sprite-gradient1x32_grn">
+<div class="masthead">
+<div class="container">
+<span class="topLogo">
+<a class="logoWrap" onClick="setPID(5045);" href="/"><img class="sprite-taLogo" src="http://c1.tacdn.com/img2/x.gif" width="362" height="42" alt="Reviews of Hotels, Flights and Vacation Rentals"/></a>
+</span>
+<h1 class="header ">Travel Forum</h1>
+</div>
+<div class="navSrch sprite-magGlass_gry  no_cpu   typeahead_ui_restyle" id="SEARCH_LHN">
+<form method="get" action="/Search" onsubmit="return ta.call('ta.common.search.recordAndValidate',event);" id="SEARCH_LHN_form">
+<input id="mainSearch" type="text" name="q" class=" text focusClear" autocomplete="off" onfocus="ta.call('ta.widgets.typeahead.factory.global',event,this,'SITEWIDECOMBINEDV2','ta.widgets.typeahead.events.onSelectGlobalTypeAhead',{maxChoices:16,minLength:3,showOnlyTypedChoices:true,geo:''});                       return ta.call('ta.common.search.clearOnFocus',event);" onblur="return ta.call('ta.common.search.defaultOnBlur',event);" value="Search for a city, hotel, etc."/>
+<div class="submit_button sprite-gradient1x27_gry"><input id="mainSearchSubmit" onclick="if(event.clientY) { ta.id('SEARCH_LHN_form').elements['pid'].value=3825; }" type="submit" name="sub-search" class="submit" value="Search" title="Search"/></div>
+<input type="hidden" name="geo" value=""/>
+<input type="hidden" name="pid" value="3826"/>
+<input type="hidden" name="returnTo" value="__2F__ForumHome"/>
+</form>
+</div>
+<div class="tabsBar">
+<ul class="tabs">
+<li class="tabItem  hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'Home', 0, this.href)" href="/" class="tabLink  pid4921">
+Home
+</a>
+</li>
+<li class="tabItem dropDownJS  hvrIE6"><span class="tabLink arwLink" onmouseover="ta.call('ta.common.header.createDrop', event, this)"><a onclick="ta.setEvtCookie('TopNav', 'click', 'Hotels', 0, this.href)" href="/Hotels" class="arrow_text  pid2972">
+Hotels
+</a><img class="arrow_dropdown_wht sprite-arrow_dropdown_wht" src="http://c1.tacdn.com/img2/x.gif" alt="" width="7" height="5"></span>
+<span class="hidden">
+<div class='subNav hotelsDD'>
+<div class="allHotels"><a href="/Hotels" alt="Search All Hotels">Search All Hotels</a></div> <div class="popDests"><div class="popDestsTitle">Popular destinations</div> <div class="popDestsLeft">
+<div class="popDestsLink"><a href="/Hotels-g34438-Miami_Florida-Hotels.html" alt="Miami Hotels">Miami Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g60864-New_Orleans_Louisiana-Hotels.html" alt="New Orleans Hotels">New Orleans Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g45964-Laughlin_Nevada-Hotels.html" alt="Laughlin Hotels">Laughlin Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g60927-Corpus_Christi_Texas-Hotels.html" alt="Corpus Christi Hotels">Corpus Christi Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g57804-Hampton_Virginia-Hotels.html" alt="Hampton Hotels">Hampton Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g45963-Las_Vegas_Nevada-Hotels.html" alt="Las Vegas Hotels">Las Vegas Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g34515-Orlando_Florida-Hotels.html" alt="Orlando Hotels">Orlando Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g187147-Paris_Ile_de_France-Hotels.html" alt="Paris Hotels">Paris Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g60898-Atlanta_Georgia-Hotels.html" alt="Atlanta Hotels">Atlanta Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g42424-Mackinaw_City_Cheboygan_County_Michigan-Hotels.html" alt="Mackinaw City Hotels">Mackinaw City Hotels</a></div>
+</div><div class="popDestsRight"> <div class="popDestsLink"><a href="/Hotels-g45992-Reno_Nevada-Hotels.html" alt="Reno Hotels">Reno Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g32894-Pismo_Beach_California-Hotels.html" alt="Pismo Beach Hotels">Pismo Beach Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g48016-Lake_George_New_York-Hotels.html" alt="Lake George Hotels">Lake George Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g34296-Hollywood_Florida-Hotels.html" alt="Hollywood Hotels">Hollywood Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g49022-Charlotte_North_Carolina-Hotels.html" alt="Charlotte Hotels">Charlotte Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g1435792-Pensacola_Beach_Florida-Hotels.html" alt="Pensacola Beach Hotels">Pensacola Beach Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g1798615-South_Lake_Tahoe_Lake_Tahoe_California_California-Hotels.html" alt="South Lake Tahoe Hotels">South Lake Tahoe Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g32172-Carmel_Monterey_Peninsula_California-Hotels.html" alt="Carmel Hotels">Carmel Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g60022-Lake_Geneva_Wisconsin-Hotels.html" alt="Lake Geneva Hotels">Lake Geneva Hotels</a></div>
+<div class="popDestsLink"><a href="/Hotels-g48023-Lake_Placid_New_York-Hotels.html" alt="Lake Placid Hotels">Lake Placid Hotels</a></div>
+</div> </div> <a class="tchNavPromoLink" href="/TravelersChoice-Hotels" onclick="setPID(16076);">
+<div class="tchNavPromo">
+<img src="http://c1.tacdn.com/img2/tc/2013/TCH-Hotels-dropdown_L_REG_2.png" alt="Travelers' Choice Hotel Awards"/> <p>The world's best hotels. <span class="taLnk">Get the list</span>.</p> </div>
+</a>
+</div> </span></li>
+<li class="tabItem  hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'Flights', 0, this.href)" href="/Flights" class="tabLink  pid18957" onclick="setPID(1940)">
+Flights
+</a>
+</li>
+<li class="tabItem  hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'VacationRentals', 0, this.href)" href="/VacationRentals" class="tabLink  pid4968">
+Vacation Rentals
+</a>
+</li>
+<li class="tabItem dropDownJS  hvrIE6"><span class="tabLink arwLink" onmouseover="ta.call('ta.common.header.createDrop', event, this)"><a onclick="ta.setEvtCookie('TopNav', 'click', 'Restaurants', 0, this.href)" href="/Restaurants" class="arrow_text  pid2973">
+Restaurants
+</a><img class="arrow_dropdown_wht sprite-arrow_dropdown_wht" src="http://c1.tacdn.com/img2/x.gif" alt="" width="7" height="5"></span>
+<span class="hidden">
+<form action="/RestaurantSearch" method="get" class="subNav">
+<fieldset>
+<span class="eatInputs">
+<div class="fldSet">
+<label for="restaurantCityDrop">City</label>
+<input id="restaurantCityDropUrl" type="hidden" value="" name="geo"/>
+<input id="restaurantCityDrop" class="text" type="text" name="q" autocomplete="off" onfocus="ta.call('ta.widgets.typeahead.factory.standard', event, this, 'RESTGEO', 'ta.widgets.typeahead.events.dropEateryOnSelect', {minLength: 3});"/>
+</div>
+<select id="dropCuisine" name="cat" class="dropSelect">
+<option selected="selected" value="">
+All Cuisines </option>
+<option value="1" onclick="event.stopPropagation()">
+African
+</option>
+<option value="2" onclick="event.stopPropagation()">
+American
+</option>
+<option value="3" onclick="event.stopPropagation()">
+Asian
+</option>
+<option value="5" onclick="event.stopPropagation()">
+Bakery
+</option>
+<option value="6" onclick="event.stopPropagation()">
+Barbecue
+</option>
+<option value="7" onclick="event.stopPropagation()">
+British
+</option>
+<option value="8" onclick="event.stopPropagation()">
+Cafe
+</option>
+<option value="9" onclick="event.stopPropagation()">
+Cajun & Creole
+</option>
+<option value="10" onclick="event.stopPropagation()">
+Caribbean
+</option>
+<option value="11" onclick="event.stopPropagation()">
+Chinese
+</option>
+<option value="12" onclick="event.stopPropagation()">
+Continental
+</option>
+<option value="13" onclick="event.stopPropagation()">
+Delicatessen
+</option>
+<option value="14" onclick="event.stopPropagation()">
+Dessert
+</option>
+<option value="16" onclick="event.stopPropagation()">
+Eastern European
+</option>
+<option value="17" onclick="event.stopPropagation()">
+Fusion/Eclectic
+</option>
+<option value="18" onclick="event.stopPropagation()">
+European
+</option>
+<option value="20" onclick="event.stopPropagation()">
+French
+</option>
+<option value="21" onclick="event.stopPropagation()">
+German
+</option>
+<option value="22" onclick="event.stopPropagation()">
+Global/International
+</option>
+<option value="23" onclick="event.stopPropagation()">
+Greek
+</option>
+<option value="24" onclick="event.stopPropagation()">
+Indian
+</option>
+<option value="25" onclick="event.stopPropagation()">
+Irish
+</option>
+<option value="26" onclick="event.stopPropagation()">
+Italian
+</option>
+<option value="27" onclick="event.stopPropagation()">
+Japanese
+</option>
+<option value="28" onclick="event.stopPropagation()">
+Mediterranean
+</option>
+<option value="29" onclick="event.stopPropagation()">
+Mexican/Southwestern
+</option>
+<option value="30" onclick="event.stopPropagation()">
+Middle Eastern
+</option>
+<option value="31" onclick="event.stopPropagation()">
+Pizza
+</option>
+<option value="32" onclick="event.stopPropagation()">
+Pub
+</option>
+<option value="33" onclick="event.stopPropagation()">
+Seafood
+</option>
+<option value="34" onclick="event.stopPropagation()">
+Soups
+</option>
+<option value="35" onclick="event.stopPropagation()">
+South American
+</option>
+<option value="36" onclick="event.stopPropagation()">
+Spanish
+</option>
+<option value="37" onclick="event.stopPropagation()">
+Steakhouse
+</option>
+<option value="38" onclick="event.stopPropagation()">
+Sushi
+</option>
+<option value="39" onclick="event.stopPropagation()">
+Thai
+</option>
+<option value="40" onclick="event.stopPropagation()">
+Vegetarian
+</option>
+<option value="41" onclick="event.stopPropagation()">
+Vietnamese
+</option>
+</select>
+<select name="pid" id="dropEatPrice" class="dropSelect"> <option selected="selected" value="">
+Any Price
+</option>
+<option value="1" onclick="event.stopPropagation()">$</option>
+<option value="2" onclick="event.stopPropagation()">$$</option>
+<option value="4" onclick="event.stopPropagation()">$$$</option>
+<option value="8" onclick="event.stopPropagation()">$$$$</option>
+</select>
+</span>
+<div class="button_2011_grn"><span class="sprite-gradient1x32_grn gradient" onclick="ta.call('ta.common.header.submitAndSetPid', event, this, 5277)">Find Restaurants</span></div> </fieldset>
+</form>
+</span></li>
+<li class="tabItem  hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'TravelersChoice', 0, this.href)" href="/TravelersChoice" class="tabLink  pid5087">
+Best of 2013
+</a>
+</li>
+<li id="FRIENDSTAB" class="tabItem tooltip hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'YourFriends', 0, this.href)" href="/Friends-rnauth" class="tabLink tooltip pid18784" onclick="return ta.call('ta.common.header.adjustFriendsLink', event, this);">
+Your Friends <span id="FBL" class="sprite-facebook15x15"></span>
+</a>
+<div class='overlayContents'><div class='inner2'><div class='help'><div class='hdr'>Travel is better with friends.</div><div class='ttbody'>Get inspired by your friends and share your travel plans. <a href='/Friends-rnauth' onclick="return ta.call('ta.common.header.adjustFriendsLink', event, this);">Learn more</a></div></div></div></div>
+</li>
+<li class="tabItem dropDown hvrIE6 ">
+<span class="tabLink arwLink"><span class="arrow_text">More</span><img class="arrow_dropdown_wht sprite-arrow_dropdown_wht" src="http://c1.tacdn.com/img2/x.gif" alt="" width="7" height="5"></span> <ul class="subNav">
+<li class="subItem ">
+<a href="/Inspiration" onclick="ta.setEvtCookie('TopNav', 'click', 'TripIdeas', 0, this.href)" class="subLink pid1337">Trip Ideas
+</a>
+</li>
+<li class="subItemNoLink ">
+<span class="subNoLink">Travel Forum</span>
+</li>
+<li class="subItem ">
+<a href="/apps" onclick="ta.setEvtCookie('TopNav', 'click', 'Apps', 0, this.href)" class="subLink pid18876">Apps
+</a>
+</li>
+<li class="subItem ">
+<a href="http://www.cruisecritic.com/" class="subLink " target="_blank">Cruises
+</a>
+</li>
+<li class="subItem ">
+<a href="/TravelGuides" onclick="ta.setEvtCookie('TopNav', 'click', 'TravelGuides', 0, this.href)" class="subLink pid15735">Travel Guides
+</a>
+</li>
+<li class="subItem ">
+<a href="/GreenLeaders" onclick="ta.setEvtCookie('TopNav', 'click', 'GreenLeaders', 0, this.href)" class="subLink pid34563">GreenLeaders
+</a>
+</li>
+</ul>
+</li>
+<li class="tabItem altItem warLink sprite-gradient1x32_grn_drk last hvrIE6">
+<a href="/UserReview-e__2F__ForumHome" class="writeReview taLnk hvrIE6 tabLink pid1434" onclick="ta.setEvtCookie('TopNav', 'click', 'WriteAReview', 0, this.href)">
+Write a Review</a>
+</li>
+</ul> </div>
+<div id="USER_PREFS" class="prfs">
+<ul class="opts">
+<li class="optItem unregistered sprite-member_grn user first">Your TripAdvisor</li>
+<li class="optItem login"><span class="taLnk hvrIE6" onClick="ta.util.cookie.setPIDCookie(429);ta.store('registration.ga_module', 'Masthead');ta.call('ta.overlays.Factory.showConnectOverlay', event, this, {flow: 'MASTHEAD'}, 'SIGNIN');">Sign in</span></li>
+<li id="register" class="optItem register flyoutX" onclick="ta.util.cookie.setPIDCookie(427);ta.store('registration.ga_module', 'Masthead');ta.call('ta.overlays.Factory.showConnectOverlay', event, this, {flow: 'MASTHEAD'}, 'SIGNUP');"><span class="taLnk hvrIE6">Register Now!</span>
+<li class="optItem" id="MOBHDRLNK">
+<a class="optItemLink sprite-mobile_org mobile_org" onClick="ta.util.cookie.setPIDCookie(4109);ta.util.cookie.setPIDCookie(4109)" href="/apps">FREE Mobile App</a>
+</li>
+<li id="INTLPOP" class="optItem intSites last  no_cpu " onclick="ta.call('ta.overlays.Factory.intlPopup', event, this)"><span class="sprite-arrow_dropdown_blu arrowDn"><img class="sprite-flag" src="http://c1.tacdn.com/img2/x.gif" alt="International Sites" title="International Sites"/></span></li> </ul> </div> </div> </div>
+<div id="MAINWRAP">
+<div id="SAVES" style="display: none;">
+</div>
+<div id="MAIN" class="ForumHome " rel="v:itemreviewed">
+<script type="text/javascript">
+var ta_AD_FAIL_MS = 4000;
+var ta_ldrLogFails = 0;
+function ta_logLatency(s,t) {
+if(typeof ta.util.error.record != "undefined" && typeof ta.common.ads != "undefined") {
+ta.common.ads.scrapeAndLog('ad728X90',s,t);
+} else {            if(window.ta_ldrLogFail < 3) {
+window.ta_ldrLogFail++;
+setTimeout(function(){
+ta_logLatency(s,t)
+}, 3000);
+}
+}
+}
+var ta_ldrStart = new Date().getTime();
+var ta_ldrFail = setTimeout(function(){ta_logLatency('4s/Fail')}, window.ta_AD_FAIL_MS);
+</script>
+<div class="ad iab_leaBoa reserve66">
+<div id="ad728X90" class="adInner"><!-- Ad tags: doubleclick
+domain=ad.doubleclick.net
+netid=N5349
+site=ta.ta.com.s
+zone=none
+PageType=ForumHome
+pool=T
+rd=com
+dcopt=ist
+sz=728X90,970X66
+tile=1
+slice=control_14
+ord=69266016
+platform=desktop
+area=NONE
+
+-->
+<div class="adServer ">
+<div class="details" id="adiframe1" style="display: none">
+<input type="hidden" id="adiframe1_url" value="ad.doubleclick.net+N5349+ta.ta.com.s+none+90+728+NONE+false+PageType=ForumHome;pool=T;rd=com;dcopt=ist;sz=728X90%2C970X66;tile=1;slice=control_14;ord=69266016;platform=desktop"/><script> var adpHtml = "adp/adp-v14157660199b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.doubleclick.net/N5349/jump/ta.ta.com.s/none;PageType=ForumHome;pool=T;rd=com;dcopt=ist;sz=728X90%2C970X66;tile=1;slice=control_14;ord=69266016;platform=desktop?" rel="nofollow">
+<img src="http://ad.doubleclick.net/N5349/ad/ta.ta.com.s/none;PageType=ForumHome;pool=T;rd=com;dcopt=ist;sz=728X90%2C970X66;tile=1;slice=control_14;ord=69266016;platform=desktop?" width="728" height="90" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<script type="text/javascript">
+(function(){
+clearTimeout(window.ta_ldrFail);
+var t=(new Date().getTime() - window.ta_ldrStart);
+if(t > 1000 && t < window.ta_AD_FAIL_MS && ta_logLatency) {
+var s = ( t < 2000 ) ? '1s+' : '2s+';
+ta_logLatency(s,t);
+}
+})();
+</script>
+<div id="LEFTNAV" class="col">
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_hotels" href="/Hotels">
+Hotels</a>
+</li>
+<li>
+<a class="k_vacation_rentals pid35933" href="/VacationRentals">
+Vacation Rentals</a>
+</li>
+<li>
+<a class="k_flights" href="/Flights">
+Flights</a>
+</li>
+<li>
+<a class="k_restaurants" href="/Restaurants">
+Restaurants</a>
+</li>
+<li>
+<a class="k_inspiration" href="/Inspiration">
+Trip Ideas</a>
+</li>
+<li>
+<a class="k_travel_guides" href="/TravelGuides">
+Free Guides</a>
+</li>
+</ul>
+</div>
+<div class="ad iab_supSky">
+<div id="ad160X600" class="adInner deferAd"><!-- Ad tags: doubleclick
+domain=ad.doubleclick.net
+netid=N5349
+site=ta.ta.com.s
+zone=none
+PageType=ForumHome
+pool=T
+rd=com
+sz=160X600
+tile=2
+slice=control_14
+ord=69266016
+platform=desktop
+area=NONE
+
+-->
+<div class="adServer ">
+<div class="details" id="adiframe2" style="display: none">
+<input type="hidden" id="adiframe2_url" value="ad.doubleclick.net+N5349+ta.ta.com.s+none+600+160+NONE+false+PageType=ForumHome;pool=T;rd=com;sz=160X600;tile=2;slice=control_14;ord=69266016;platform=desktop"/><script> var adpHtml = "adp/adp-v14157660199b.html"
+</script>
+</div>
+<noscript>
+<!-- for non JavaScript browsers and Netscape 2.x -->
+<a href="http://ad.doubleclick.net/N5349/jump/ta.ta.com.s/none;PageType=ForumHome;pool=T;rd=com;sz=160X600;tile=2;slice=control_14;ord=69266016;platform=desktop?" rel="nofollow">
+<img src="http://ad.doubleclick.net/N5349/ad/ta.ta.com.s/none;PageType=ForumHome;pool=T;rd=com;sz=160X600;tile=2;slice=control_14;ord=69266016;platform=desktop?" width="160" height="600" border="0">
+</a>
+</noscript>
+</div> </div>
+</div>
+<div id="sidebar_deals_div" class="bx01 deals">
+<h2>Popular cities</h2>
+<ul>
+<li><a href="/Hotels-g29092-Anaheim_California-Hotels.html">Anaheim Hotels</a></li> <li><a href="/Hotels-g147247-Aruba-Hotels.html">Aruba Hotels</a></li> <li><a href="/Hotels-g147414-Bahamas-Hotels.html">Bahamas Hotels</a></li> <li><a href="/Hotels-g152515-Cabo_San_Lucas_Los_Cabos_Baja_California-Hotels.html">Cabo San Lucas Hotels</a></li> <li><a href="/Hotels-g150809-Cozumel_Yucatan_Peninsula-Hotels.html">Cozumel Hotels</a></li> <li><a href="/Hotels-g34227-Fort_Lauderdale_Florida-Hotels.html">Fort Lauderdale Hotels</a></li> <li><a href="/Hotels-g294217-Hong_Kong-Hotels.html">Hong Kong Hotels</a></li> <li><a href="/Hotels-g60982-Honolulu_Oahu_Hawaii-Hotels.html">Honolulu Hotels</a></li> <li><a href="/Hotels-g147309-Jamaica-Hotels.html">Jamaica Hotels</a></li> <li><a href="/Hotels-g60634-Lahaina_Maui_Hawaii-Hotels.html">Lahaina Hotels</a></li> <li><a href="/Hotels-g34439-Miami_Beach_Florida-Hotels.html">Miami Beach Hotels</a></li> <li><a href="/Hotels-g147311-Montego_Bay_Saint_James_Parish_Jamaica-Hotels.html">Montego Bay Hotels</a></li> <li><a href="/Hotels-g147313-Negril_Westmoreland_Parish_Jamaica-Hotels.html">Negril Hotels</a></li> <li><a href="/Hotels-g154267-Nuevo_Vallarta_Pacific_Coast-Hotels.html">Nuevo Vallarta Hotels</a></li> <li><a href="/Hotels-g147312-Ocho_Rios_Saint_Ann_Parish_Jamaica-Hotels.html">Ocho Rios Hotels</a></li> <li><a href="/Hotels-g150812-Playa_del_Carmen_Yucatan_Peninsula-Hotels.html">Playa del Carmen Hotels</a></li> <li><a href="/Hotels-g274707-Prague_Bohemia-Hotels.html">Prague Hotels</a></li> <li><a href="/Hotels-g147399-Providenciales_Turks_and_Caicos-Hotels.html">Providenciales Hotels</a></li> <li><a href="/Hotels-g153510-Puerto_Aventuras_Yucatan_Peninsula-Hotels.html">Puerto Aventuras Hotels</a></li> <li><a href="/Hotels-g147290-Puerto_Plata_Puerto_Plata_Province_Dominican_Republic-Hotels.html">Puerto Plata Hotels</a></li> <li><a href="/Hotels-g147320-San_Juan_Puerto_Rico-Hotels.html">San Juan Hotels</a></li> <li><a href="/Hotels-g147342-St_Lucia-Hotels.html">St. Lucia Hotels</a></li> <li><a href="/Hotels-g150813-Tulum_Yucatan_Peninsula-Hotels.html">Tulum Hotels</a></li> <li><a href="/Hotels-g150805-Yucatan_Peninsula-Hotels.html">Yucatan Peninsula Hotels</a></li> </ul>
+</div>
+<div class="bx01 deals swirllinks">
+<div class="h2">Explore the world! TripAdvisor has reviews and information on over 400,000 locations, including:</div>
+<div class="swirllinkset"> <div class=" header">Travel Destinations</div>
+<ul>
+<li><a href="/Hotels-g60763-New_York_City_New_York-Hotels.html">New York City hotels</a></li>
+<li><a href="/Hotels-g45963-Las_Vegas_Nevada-Hotels.html">Las Vegas hotels</a></li>
+<li><a href="/Hotels-g34515-Orlando_Florida-Hotels.html">Orlando hotels</a></li>
+<li><a href="/Hotels-g150807-Cancun_Yucatan_Peninsula-Hotels.html">Cancun hotels</a></li>
+<li><a href="/Tourism-g147293-Punta_Cana_La_Altagracia_Province_Dominican_Republic-Vacations.html">Punta Cana vacations</a></li>
+<li><a href="/Tourism-g45963-Las_Vegas_Nevada-Vacations.html">Las Vegas</a></li>
+<li><a href="/Tourism-g60763-New_York_City_New_York-Vacations.html">New York City</a></li>
+</ul>
+</div> <div class="swirllinkset"> <div class=" header">Vacation Specials</div>
+<ul>
+<li><a href="/SmartDeals-g186338-London_England-Hotel-Deals.html">London deals</a></li>
+<li><a href="/SmartDeals-g28926-California-Hotel-Deals.html">California deals</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="BODYCON" class="col poolT" typeof="v:Organization">
+<div class="crumbs">
+<div> <ul>
+<li>
+<a href="/" id="HOME" onclick="ta.setEvtCookie('Breadcrumbs','navigation','',0,this.href);">Home</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="wrpHeader">
+<div class="forumsTagHead">Get the truth. Then go.&reg;</div>
+<div id="headingWrapper" class=" ">
+<h1 id="HEADING" rel="v:name">
+Travel Board
+</h1>
+</div>
+</div>
+<br/>
+<div id="forumshome">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="green_bg_100">
+<tr valign="top">
+<td width="5" class="topLeftRoundedCorner"><img src="http://c1.tacdn.com/img/s.gif" width="5" height="5"/></td>
+<td width="100%" class="topCenterTableHeader"><img src="http://c1.tacdn.com/img/s.gif" width="140" height="4"/></td>
+<td width="5" class="topRightRoundedCorner"><img src="http://c1.tacdn.com/img/s.gif" width="5" height="5"/></td>
+</tr>
+<tr>
+<td colspan="3" class="h3-header" align="left">
+<h3 class="headerText">Join the Discussion</h3>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="8" cellspacing="0" class="table_container">
+<tr>
+<td colspan="2" class="twk_p8">
+Learn from your fellow travelers. Tap the TripAdvisor community to help get the most out of your next trip.
+<br/>
+<ul class="linkarrows">
+<li>
+<span class="linkify" onclick="ta.store('registration.ga_module', 'ForumHome'); ta.overlays.registration.connect({flow: 'FORUMHOME'},'SIGNIN', {LocationId: ''})">
+<strong>Register/Sign in here</strong> </span>
+</li>
+</ul>
+<ul class="linkarrows">
+<li><a href="/help/community">Visit the Help Center</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td align="left" valign="middle" colspan="2" class="twk_pl8">
+<img src="http://c1.tacdn.com/img/forums/gray.gif" class="gray_bar" width="100%"/>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td>
+<form method="GET" action="/SearchForums">
+<table cellspacing="0" cellpadding="2">
+<tr>
+<td class="search_txt">
+<b>Search all forums for:</b>&#160;
+</td> <td align="right" class="indent5" valign="bottom"></td>
+<td>
+<input type="text" name="q">
+</td>
+<td>
+<input type="image" align="absmiddle" class="go_button" alt="Click to search forums" src="http://c1.tacdn.com/img/buttons_en/go.gif">
+</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+<img src="http://c1.tacdn.com/img/forums/gray.gif" width="100%" class="gray_bar"/>
+</td>
+</tr>
+<tr>
+<td class="twk_p8">
+<p></p><h3 class="twk_forumH3">Browse by destination</h3><p></p>
+<table cellpadding="0" cellspacing="0">
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g191-i3-United_States.html">United States Forums</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g4-i11-Europe.html">Europe Forums</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g153339-i49-Canada.html">Canada Forums</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g2-i510-Asia.html">Asia Forums</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g291958-i812-Central_America.html">Central America Forums</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g6-i9112-Africa.html">Africa Forums</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g147237-i26-Caribbean.html">Caribbean Forums</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g150768-i6-Mexico.html">Mexico Forums</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g8-i119-South_Pacific.html">South Pacific Forums</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g13-i817-South_America.html">South America Forums</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34591)">
+<img src="http://c1.tacdn.com/img/forums/folder.gif" width="20" height="14" hspace="6" align="absmiddle" border="0"/><a href="/ListForums-g21-i870-Middle_East.html">Middle East Forums</a>
+</td>
+</tr>
+</table>
+</td>
+<td width="50%" valign="top" align="left" rowspan="2" class="otherTopic">
+<div class="otherTopicWrap">
+<p></p>
+<h3 class="twk_forumH3">Beyond destination forums</h3>
+<p></p>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i26969-Traveling_with_Pets.html">Traveling with Pets</a>
+<img src="http://c1.tacdn.com/img/btn_new_content.gif" width="46" height="14" hspace="2" align="absmiddle"/>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i10701-Outdoors_Adventure_Travel.html">Outdoors / Adventure Travel</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i12567-Road_Trips.html">Road Trips</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i12530-Travel_Gadgets_and_Gear.html">Travel Gadgets and Gear</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i12522-Honeymoons_and_Romance.html">Honeymoons and Romance</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i9658-Family_Travel.html">Family Travel</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i12290-Bargain_Travel.html">Bargain Travel</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i12483-Train_Travel.html">Train Travel</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i10702-Air_Travel.html">Air Travel</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i12337-Antarctic_Adventures.html">Antarctic Adventures</a>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="pb5" onclick="setPID(34592)">
+<a href="/ShowForum-g1-i12357-Solo_Travel.html">Solo Travel</a>
+</td>
+</tr>
+<tr>
+<td>
+<a id="see_all" href="/ListForums-g1-World.html">SEE ALL&nbsp&gt;&gt;</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<div id="forumshomeSponsored">
+<h2>Sponsored Forums</h2>
+<ul class="wrap">
+<li>
+<a onclick="setPID(4641)" href="/ShowForum-g28933-i214-Idaho.html">
+<img src="http://c1.tacdn.com/img2/forums/sponsorship/idaho.gif" alt="Idaho"><span class="spForumTitle">Idaho</span>
+</a>
+</li>
+</ul>
+</div>
+<p></p>
+<div class="twk_pt10"></div>
+<table class="green_bg_100 " border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr valign="top">
+<td width="5" class="topLeftRoundedCorner"><img src="http://c1.tacdn.com/img/s.gif" width="5" height="5"/></td>
+<td width="100%" class="topCenterTableHeader"><img src="http://c1.tacdn.com/img/s.gif" width="140" height="4"/></td>
+<td width="5" class="topRightRoundedCorner"><img src="http://c1.tacdn.com/img/s.gif" width="5" height="5"/></td>
+</tr>
+<tr>
+<td colspan="3" class="h3-header" align="left">
+<h3 class="headerText">Jump to popular forums</h3>
+</td>
+</tr>
+</table>
+<table class="table_container2" border="0" cellpadding="8" cellspacing="0" width="100%">
+<tr align="center" valign="top">
+<td class="twk_p8">
+<p class="twk_p8">
+<a href="/ShowForum-g60763-i5-New_York_City_New_York.html" onclick="setPID(34594)">
+<img width="95" height="70" border="0" src="http://c1.tacdn.com/img//homepage/vacations_nyc.jpg" alt="New York City">
+<br/>
+New York City
+</a>
+</p>
+<p class="twk_p8">
+<a href="/ShowForum-g150807-i8-Cancun_Yucatan_Peninsula.html" onclick="setPID(34594)">
+<img width="95" height="70" border="0" src="http://c1.tacdn.com/img//homepage/vacations_cancun.jpg" alt="Cancun">
+<br/>
+Cancun
+</a>
+</p>
+</td>
+<td class="twk_p8">
+<p class="twk_p8">
+<a href="/ShowForum-g45963-i10-Las_Vegas_Nevada.html" onclick="setPID(34594)">
+<img width="95" height="70" border="0" src="http://c1.tacdn.com/img//homepage/vacations_lasvegas.jpg" alt="Las Vegas">
+<br/>
+Las Vegas
+</a>
+</p>
+<p class="twk_p8">
+<a href="/ShowForum-g187147-i14-Paris_Ile_de_France.html" onclick="setPID(34594)">
+<img width="95" height="70" border="0" src="http://c1.tacdn.com/img//homepage/vacations_paris.jpg" alt="Paris">
+<br/>
+Paris
+</a>
+</p>
+</td>
+<td class="twk_p8">
+<p class="twk_p8">
+<a href="/ShowForum-g186338-i17-London_England.html" onclick="setPID(34594)">
+<img width="95" height="70" border="0" src="http://c1.tacdn.com/img//homepage/vacations_london2.jpg" alt="London">
+<br/>
+London
+</a>
+</p>
+<p class="twk_p8">
+<a href="/ShowForum-g34515-i19-Orlando_Florida.html" onclick="setPID(34594)">
+<img width="95" height="70" border="0" src="http://c1.tacdn.com/img//homepage/vacations_orlando.jpg" alt="Orlando">
+<br/>
+Orlando
+</a>
+</p>
+</td>
+<td class="twk_p8">
+<p class="twk_p8">
+<a href="/ShowForum-g187791-i22-Rome_Lazio.html" onclick="setPID(34594)">
+<img width="95" height="70" border="0" src="http://c1.tacdn.com/img//homepage/vacations_rome.jpg" alt="Rome">
+<br/>
+Rome
+</a>
+</p>
+<p class="twk_p8">
+<a href="/ShowForum-g150812-i23-Playa_del_Carmen_Yucatan_Peninsula.html" onclick="setPID(34594)">
+<img width="95" height="70" border="0" src="http://c1.tacdn.com/img//homepage/vacations_playadelcarmen.jpg" alt="Playa del Carmen">
+<br/>
+Playa del Carmen
+</a>
+</p>
+</td>
+<td class="twk_p8">
+<p class="twk_p8">
+<a href="/ShowForum-g54359-i25-Myrtle_Beach_South_Carolina.html" onclick="setPID(34594)">
+<img width="95" height="70" border="0" src="http://c1.tacdn.com/img//homepage/vacations_myrtlebeach.jpg" alt="Myrtle Beach">
+<br/>
+Myrtle Beach
+</a>
+</p>
+<p class="twk_p8">
+<a href="/ShowForum-g147293-i28-Punta_Cana_La_Altagracia_Province_Dominican_Republic.html" onclick="setPID(34594)">
+<img width="95" height="70" border="0" src="http://c1.tacdn.com/img//homepage/vacations_puntacana.jpg" alt="Punta Cana">
+<br/>
+Punta Cana
+</a>
+</p>
+</td>
+</tr>
+</table>
+<div class="twk_pt10"></div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="green_bg_100">
+<tr valign="top">
+<td width="5" class="topLeftRoundedCorner"><img src="http://c1.tacdn.com/img/s.gif" width="5" height="5"/></td>
+<td width="100%" class="topCenterTableHeader"><img src="http://c1.tacdn.com/img/s.gif" width="140" height="4"/></td>
+<td width="5" class="topRightRoundedCorner"><img src="http://c1.tacdn.com/img/s.gif" width="5" height="5"/></td>
+</tr>
+<tr>
+<td colspan="3" class="h3-header" align="left">
+<h3 class="headerText">Beyond our destination forums</h3>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="8" cellspacing="0" class="table_container">
+<tr>
+<td class="twk_p8">
+By popular demand we've created forums outside of geographical boundaries. Let us know what you think.<br/>
+<br/>
+<table width="100%" cellspacing="0">
+<tr align="center" valign="top">
+<td width="25%" onclick="setPID(34595)">
+<a target="_blank" href="/ShowUrl-a_partnerKey.1-a_url.http%253A__5F____5F__2F__5F____5F____5F____5F__2F__5F____5F__www__5F____5F__2E__5F____5F__cruisecritic__5F____5F__2E__5F____5F__com__5F____5F__2F__5F____5F__vbulletin__5F____5F__2F__5F____5F__ta__5F____5F__5F__5F____5F__loadlanding__5F____5F__2E__5F____5F__cfm-a_urlKey.9e77edd50d5bb6754.html">
+<img width="95" height="70" border="0" alt="Cruises" src="http://c1.tacdn.com/img/forums/cruises.jpg">
+<br/>
+Cruises
+</a>
+</td>
+<td width="25%" onclick="setPID(34595)">
+<a href="/ShowForum-g1-i10700-Timeshares_Vacation_Rentals.html">
+<img width="95" height="70" border="0" alt="Timeshares / Vacation Rentals" src="http://c1.tacdn.com/img/forums/timeshare.jpg">
+<br/>
+Timeshares / Vacation Rentals
+</a>
+</td>
+<td width="25%" onclick="setPID(34595)">
+<a href="/ShowForum-g1-i10701-Outdoors_Adventure_Travel.html">
+<img width="95" height="70" border="0" alt="Outdoors / Adventure Travel" src="http://c1.tacdn.com/img/forums/outdoor.jpg">
+<br/>
+Outdoors / Adventure Travel
+</a>
+</td>
+<td width="25%" onclick="setPID(34595)">
+<a href="/ShowForum-g1-i9658-Family_Travel.html">
+<img width="95" height="70" border="0" alt="Family Travel" src="http://c1.tacdn.com/img/forums/family_travel.jpg">
+<br/>
+Family Travel
+</a>
+</td>
+</tr>
+</table>
+<br/>
+<table width="100%" cellspacing="0">
+<tr align="center" valign="top">
+<td width="25%" onclick="setPID(34595)">
+<a href="/ShowForum-g1-i12290-Bargain_Travel.html">
+<img width="95" height="70" border="0" alt="Bargain Travel" src="http://c1.tacdn.com/img/forums/bargaintravel.jpg">
+<br/>
+Bargain Travel
+</a>
+</td>
+<td width="25%" onclick="setPID(34595)">
+<a href="/ShowForum-g1-i12140-TripAdvisor_Causes.html">
+<img width="95" height="70" border="0" alt="TripAdvisor Causes" src="http://c1.tacdn.com/img/forums/charity.jpg">
+<br/>
+TripAdvisor Causes
+</a>
+</td>
+<td width="25%" onclick="setPID(34595)">
+<a href="/ShowForum-g1-i12105-TripAdvisor_Support.html">
+<img width="95" height="70" border="0" alt="TripAdvisor Support" src="http://c1.tacdn.com/img/forums/support.jpg">
+<br/>
+TripAdvisor Support
+</a>
+</td>
+<td width="25%" onclick="setPID(34595)">
+<a href="/ShowForum-g1-i12104-Help_us_make_TripAdvisor_better.html">
+<img width="95" height="70" border="0" alt="Help us make TripAdvisor better!" src="http://c1.tacdn.com/img/forums/helpmaketabetter.jpg">
+<br/>
+Help us make TripAdvisor better!
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p></p>
+<div class="twk_pt10"></div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="drk_blue_bg_100">
+<tr valign="top">
+<td width="5" class="topLeftRoundedCorner"><img src="http://c1.tacdn.com/img/s.gif" width="5" height="5"/></td>
+<td width="100%" class="topCenterTableHeader"><img src="http://c1.tacdn.com/img/s.gif" width="140" height="4"/></td>
+<td width="5" class="topRightRoundedCorner"><img src="http://c1.tacdn.com/img/s.gif" width="5" height="5"/></td>
+</tr>
+<tr>
+<td colspan="3" class="h3-header" align="left">
+<h3 class="headerText">Why Forums?</h3>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="8" cellspacing="0" class="table_container">
+<tr>
+<td class="twk_p8">
+Three great reasons to try our new feature:<br/>
+<ul class="linkarrows">
+<li class="dt1"><b>Candid opinions.</b><br/>
+You love our user reviews for this same reason. Forums give you real opinions from real people!</li>
+<li class="dt1"><b>Get an answer fast.</b><br/>
+More than 500,000 travelers visit TripAdvisor every day... any of whom might know the answer to your question!</li>
+<li class="dt1"><b>Share your experience.</b><br/>
+Been there, done that? Our users are what keeps this site so valuable. You get an open forum for your opinions and expertise...</li>
+</ul>
+</td>
+</tr>
+</table>
+<p></p>
+<div class="twk_pt10"></div>
+</div>
+<script type="text/javascript">
+function loginSuccess() {document.location.reload();}
+</script>
+</div>
+</div> </div>
+<div id="FOOT_CONTAINER">
+<div id="FOOT">
+<div class="corporate wrap">
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img class="sprite-identityFOOT" src="http://c1.tacdn.com/img2/x.gif" alt="TripAdvisor"/>
+</dt>
+<dd class="meta">
+Reviews and advice on hotels, resorts, flights, vacation rentals, travel packages, and lots more!
+</dd>
+</dl>
+<div class="sep internal">
+<span><a class="taLnk" href="/PressCenter-c6-About_Us.html">About Us</a></span> | <span class="taLnk" onclick="return ta.call('ta.overlays.Factory.helpCenterLB', event);">Help&nbsp;Center</span>
+| <span><a class="taLnk" href="/AllLocations-g1-c1-Hotels-World.html">Site Map</a></span>
+</div>
+<div class="sep legal">
+<div class="copyright">
+© 2013 TripAdvisor LLC All rights reserved. TripAdvisor <a href="/pages/terms.html">Terms of Use</a> and <a href="/pages/privacy.html">Privacy Policy</a>.</div>
+<div class="vfm_disclaimer">
+</div>
+<div id="PDISCLAIMER" class="disclaimer">
+* TripAdvisor LLC is not a booking agent and does not charge any service fees to users of our site... (<span id="TERMS" class="taLnk hvrIE6" onclick="getFullDisclaimerText()">more</span>) </div>
+<div class="userAgent">
+<b>We noticed that you're using an unsupported browser. The TripAdvisor website may not display properly.</b><br/> We support the following browsers:
+<b>Windows:</b>
+<span class="taLnk" onClick="ta.util.ASDF.asdfPopup('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>,
+<span class="taLnk" onClick="ta.util.ASDF.asdfPopup('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>,
+<span class="taLnk" onClick="ta.util.ASDF.asdfPopup('q5FyiiycV8LnGEiaV')">Google Chrome</span>.
+<b>Mac:</b>
+<span class="taLnk" onClick="ta.util.ASDF.asdfPopup('PFJ22cV8LtJTJESL')">Safari</span>.
+</div>
+<div class="disclaimer">TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</div>
+</div>
+</div> </div> </div>
+</div> </div>
+</div>
+<script type="text/javascript">
+ta.store('ta.commerce.suppress_commerce_impressions.enabled', true);
+</script>
+<script type="text/javascript">
+ta.store('typeahead.typeahead2_mixed_ui', true);
+ta.store('typeahead.destination_icons', "http://c1.tacdn.com/img2/icons/typeahead/destination_icons.png");
+ta.store('typeahead.hit', "Hit"); // Hit
+ta.store('typeahead.enter', "ENTER"); // ENTER
+ta.store('typeahead.startTyping', "Start typing — we'll start your search!"); // Start typing - we'll start your search!
+ta.store('typeahead.searchForPrompt', "Search for"); // Search for
+</script>
+<script type="text/javascript">
+ta.store('metaCheckRatesUpdateDivInline', 'PROVIDER_BLOCK_INLINE');
+ta.store('metaInlineGeoId', '');
+</script>
+<script>
+</script>
+<script type="text/javascript">
+ta.store('metaCheckRatesUpdateDiv', 'PROVIDER_BLOCK');
+ta.store('checkrates.meta_ui_sk_box_v3', true)
+ta.store('checkrates.one_second_xsell', true);
+</script>
+<script type="text/javascript">
+var metaCheckRatesCSS = 'http://c1.tacdn.com/css2/meta_ui_sk_box_v3-v12265897717b.css';
+ta.store('metaCheckRatesFeatureEnabled', true);
+</script>
+<script type="text/javascript">
+ta.store('mapProviderFeature.maps_api','ta-maps-bing');
+</script>
+<script type="text/javascript">
+ta.store('meta.dropdownMiniMetaHotels', true);
+var dropdownMetaCSS = "http://c1.tacdn.com/css2/meta_drop_down_overlay-v13216155288b.css";
+</script>
+<script type="text/javascript">
+ta.store('meta.dropdownMiniMeta', true);
+var dropdownMetaCSS = "http://c1.tacdn.com/css2/meta_drop_down_overlay-v13216155288b.css";
+</script>
+<script type="text/javascript">
+ta.store('metaDatePickerEnabled', true);
+var common_skip_dates = "Search without specific dates";
+ta.store('multiDP.skipDates', "Search without specific dates");         ta.store('multiDP.inDate', "");
+ta.store('multiDP.outDate', "");
+ta.store('multiDP.multiNightsText', "2 nights");         ta.store('multiDP.singleNightText', "1 night");         ta.store('calendar.preDateText', "mm/dd/yyyy");
+ta.store('multiDP.adultsCount', "2");
+ta.store('multiDP.singleAdultsText', "1 guest");         ta.store('multiDP.multiAdultsText', "2 guests");       	        ta.store('multiDP.enterDatesText', "Enter dates");         ta.store('multiDP.checkIn', "Check-in");         ta.store('multiDP.checkOut', "Check-out");         ta.store('multiDP.isMondayFirstDayOfWeek', false);
+ta.store('multiDP.dateSeparator', " - ");
+ta.store('multiDP.dateRangeEllipsis', "Searching %%%...");         ta.store('multiDP.abbrevMonthList', ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]);                   ta.store('multiDP.two_field', true);
+ta.store('multiDP.v4', false);
+ta.store('multiDP.v5', true);
+ta.store('multiDP.v6', false);
+ta.store('multiDP.v7', true);
+ta.store('multiDP.checkIn', "mm/dd/yyyy");             ta.store('multiDP.checkOut', "mm/dd/yyyy");                                     ta.store('ta.meta_single_date_picker', true);
+</script>
+<script type="text/javascript">
+(function(window,ta,undefined){
+try {
+if(ta){
+ta.uid = 'Uo6vxAoQLT4AADRaLq0AAAAG';
+if (ta.prerender && ta.prerender._init){
+ta.prerender._init(true);
+}
+}
+if(ta&&ta.store){
+ta.store('google_analytics_events',true);
+}
+var _gaq = window._gaq = window._gaq || []
+, pageDataStack = ta.analytics.pageData = ta.analytics.pageData || []
+, pageData
+;
+_gaq.push(['_setAccount','UA-30198665-1']);
+_gaq.push(['_addIgnoredRef','tripadvisor']);
+_gaq.push(['_addIgnoredRef','daodao']);
+_gaq.push(['_setCustomVar',2,'Member','-',3]);
+_gaq.push(['_setCustomVar',5,'EntryServlet','ForumHome',3]);
+_gaq.push(['_setCustomVar',6,'Pool','T',3]);
+_gaq.push(['_setCustomVar',7,'Slice','2457',3]);
+_gaq.push(['_setCustomVar',18,'MCID','TripAdvisor-0',3]);
+_gaq.push(['_setCustomVar',21,'PageType','Desktop Page',3]);
+_gaq.push(['_setCustomVar',22,'DeviceType','Desktop',3]);
+_gaq.push(['_setCustomVar',23,'IPGeo','Austin-30196',3]);
+_gaq.push(['_setCustomVar',24,'ProductType','Browser',3]);
+_gaq.push(['_setCustomVar',48,'WebServer','web48b',3]);
+pageData=ta.analytics._JSON_parse('{\"cv\":[[\"_deleteCustomVar\",1],[\"_setCustomVar\",20,\"PP\",\"-281-287-252-277-251-274-\",3],[\"_deleteCustomVar\",10],[\"_deleteCustomVar\",25],[\"_deleteCustomVar\",8],[\"_deleteCustomVar\",14],[\"_deleteCustomVar\",12],[\"_deleteCustomVar\",11],[\"_deleteCustomVar\",13],[\"_deleteCustomVar\",19]],\"url\":\"/ForumHome\"}');
+pageDataStack.push(pageData);
+if(ta.keep){
+ta.keep("partials.pageProperties","281-287-252-277-251-274");
+}
+if(ta.store){
+ta.store("gaMemberState","-");
+}
+for (var i = 0, l = pageData.cv.length; i < l; i++) {
+_gaq.push(pageData.cv[i]);
+}
+_gaq.push(['_set','page',pageData.url]);
+_gaq.push(['_trackPageview']);
+if (ta && ta.queueForLoad) {
+ta.queueForLoad(ta.analytics._insertGAScriptElement,10,'global_ga.vm_loadGA');
+}
+ta.analytics.google_analytics_onload = true;
+}
+catch (e) {
+if(ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record(e,'global_ga.vm');
+}
+}
+}(window,ta));
+</script>
+<script type="text/javascript">
+var lazyImgs = [
+];
+var lazyHtml = [
+];
+ta.queueForLoad( function() {
+window.setupLazyLoad();
+}, 'lazy load images');
+</script>
+<script type="text/javascript">
+ta.store('abMarkerSet', '');
+ta.store('facebook.hasPublishActions', "");
+ta.keep('startOffset', '');
+ta.store('page.geo', "");
+ta.store('page.location', "");
+ta.store('page.urlSafe', "__2F__ForumHome");
+ta.store('facebook.disableLogin', false);
+ta.store('facebook.apiKey', "f1e687a58f0cdac60b7af2317a5febb3");
+ta.store('facebook.appId', "162729813767876");
+ta.store('facebook.appName', "tripadvisor");
+ta.store('facebook.taServerTime', "1385082820");
+ta.store('facebook.skip.session.check',"false");
+ta.store("facebook.invalidFBCreds", true);
+window.fbAsyncInit = ta.support.Facebook.init;
+ta.queueForLoad(function(){
+new Asset.javascript("//connect.facebook.net/en_US/all.js");
+}, 0, 'LoadFBJS');
+function ip_adjustHeader() {
+// check for overlap
+var prefs = ta.id('USER_PREFS');
+var head = ta.id('HEAD');
+if (!prefs || !head) return;
+var logo = head.getElement('.topLogo');
+if (logo) {
+var c = prefs.getCoordinates();
+if (c.left - logo.getCoordinates().right < 10) {
+head.setStyle('padding-top', 5);
+}
+}
+}
+ta.queueForLoad(ip_adjustHeader, 'ip_adjustHeader');
+ta.store('fb.name', "");
+ta.store('fb.icon', "");
+ta.store('facebook.showWelcomeBar', true);
+ta.keep('facebook.data.request', [
+'IP_HEADER'               ]);
+ta.keep('facebook.data.request', ['ACTIVITY_COUNT']);
+ta.keep('facebook.onSessionAvail', function () {
+var node = ta.id('MOBHDRLNK');
+if (node)
+{
+node.parentNode.removeChild(node);
+}
+});
+ta.queueForLoad( function() { Cookie.writeSession('FBH', sniffFacebook() ? 1 : 2); }, 'SniffFB' );
+window.addEvent('scroll', function() {
+ta.run('ta.vr.positionPersistentFilters');
+});
+window.addEvent('resize', function() {
+ta.run('ta.vr.positionPersistentFilters');
+});
+if( ta.common && ta.common.ads ) {
+ta.store('scrollAd.enableScroll',  false  );
+ta.store('scrollAd.sbElem', document.getElement('.gridA>.sidebar') || document.getElement('.gridR>.sidebar'));
+(function() {
+var ads = [];
+var sky = ta.id('ad160X600');
+if(sky) {
+ads.push(sky);
+}
+var topBox = ta.id('ad300X250');
+if(topBox) {
+var bHacStyleAd = ta.id('STYLE_RHS_AD');
+if(!bHacStyleAd) {
+ads.push(topBox);
+}
+}
+var btmBox = ta.id('ad300X250-bottom');
+if(btmBox) {
+ads.push(btmBox);
+}
+if(ads.length > 0) {
+ta.store('deferAds.ads', ads);
+window.ta_handleAdDefer = ta.common.ads.deferAds;
+window.addEvent('scroll', window.ta_handleAdDefer );
+}
+})();
+}
+var avlb_hero_photos = "http://c1.tacdn.com/css2/modules/avlb_hero_photos-v1672090301b.css";
+var floatingMapCSS = "http://c1.tacdn.com/css2/modules/floating_map-v12587033169b.css";
+var t4bSlideshowCSS = "http://c1.tacdn.com/css2/modules/t4b_slideshow-v14112077699b.css";
+var dhtml_cr_redesign_png24 = "http://c1.tacdn.com/css2/overlays/cr_flyout-v12544950678b.css";
+ta.store('checkrates.check_more_re',true);
+ta.store('checkrates.check_more_re_center_large_hero_photos',true);
+ta.store('checkrates.check_more_hero_photos',true);
+ta.store('checkrates.center_overlay',true);
+ta.store('popunder.similar_hotels', true);
+ta.store('popunder.similar_hotels_new_rules', true);
+ta.store('popunder.suppress_half_day', true);
+// enable provider scraping
+ta.store('tests.bookingcom', true );
+ta.store('checkrates.micro_meta_above_fold',true);
+ta.store('p13n_client_tracking_tree',true);
+ta.store('useHotelsFilterState', true);
+ta.store('metaUI.isHotelsAvailabilitySort', true);
+ta.store('unavail_maybe_v1', true);
+ta.store('similar_hotels_exit_window_chevron', true);
+ta.store('metaUI.isMetaPriceFilterCalendar', true)
+ta.queueForLoad(function() {
+if(typeof js_error_array != "undefined") {
+Array.each(js_error_array, function(js_error) {
+if(js_error && js_error.msg) {
+var jsMsg = js_error.msg;
+delete js_error['msg'];
+if(jsMsg.indexOf('ta is not defined') == -1) {
+ta.util.error.record(null, "window.onerror:: " + jsMsg, null, js_error);
+}
+}
+});
+ta.store('ta.onload.errors', true);
+}
+}, 'record onload errors');
+</script>
+<script type='text/javascript'>
+</script>
+<div id="IP_IFRAME_HOLDER"></div>
+</body>
+<!-- st: 24 dc: 0 sc: 2 -->
+<!-- uid: Uo6vxAoQLT4AADRaLq0AAAAG -->
+</html>

@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="latitude" type="double" />
+      <attribute id="1" title="city" type="string" />
+      <attribute id="2" title="state" type="string" />
+      <attribute id="3" title="longitude" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Hermann, Missouri" label="Hermann, Missouri">
+        <attvalues>
+          <attvalue for="0" value="38.7042119" />
+          <attvalue for="1" value="Hermann" />
+          <attvalue for="2" value="Missouri" />
+          <attvalue for="3" value="-91.4373844" />
+        </attvalues>
+      </node>
+      <node id="College-Park, Maryland" label="College-Park, Maryland">
+        <attvalues>
+          <attvalue for="0" value="38.9896967" />
+          <attvalue for="1" value="College-Park" />
+          <attvalue for="2" value="Maryland" />
+          <attvalue for="3" value="-76.93776" />
+        </attvalues>
+      </node>
+      <node id="Ludlow, Massachusetts" label="Ludlow, Massachusetts">
+        <attvalues>
+          <attvalue for="0" value="42.1600936" />
+          <attvalue for="1" value="Ludlow" />
+          <attvalue for="2" value="Massachusetts" />
+          <attvalue for="3" value="-72.475919" />
+        </attvalues>
+      </node>
+      <node id="York, South-Carolina" label="York, South-Carolina">
+        <attvalues>
+          <attvalue for="0" value="34.9943021" />
+          <attvalue for="1" value="York" />
+          <attvalue for="2" value="South-Carolina" />
+          <attvalue for="3" value="-81.2420175" />
+        </attvalues>
+      </node>
+      <node id="Erwin, Tennessee" label="Erwin, Tennessee">
+        <attvalues>
+          <attvalue for="0" value="36.1451082" />
+          <attvalue for="1" value="Erwin" />
+          <attvalue for="2" value="Tennessee" />
+          <attvalue for="3" value="-82.4168055" />
+        </attvalues>
+      </node>
+      <node id="Pompton-Plains, New-Jersey" label="Pompton-Plains, New-Jersey">
+        <attvalues>
+          <attvalue for="0" value="40.960201" />
+          <attvalue for="1" value="Pompton-Plains" />
+          <attvalue for="2" value="New-Jersey" />
+          <attvalue for="3" value="-74.2973239" />
+        </attvalues>
+      </node>
+      <node id="Southgate, Michigan" label="Southgate, Michigan">
+        <attvalues>
+          <attvalue for="0" value="42.2139284" />
+          <attvalue for="1" value="Southgate" />
+          <attvalue for="2" value="Michigan" />
+          <attvalue for="3" value="-83.1938147" />
+        </attvalues>
+      </node>
+      <node id="Englewood, New-Jersey" label="Englewood, New-Jersey">
+        <attvalues>
+          <attvalue for="0" value="40.8928771" />
+          <attvalue for="1" value="Englewood" />
+          <attvalue for="2" value="New-Jersey" />
+          <attvalue for="3" value="-73.9726381" />
+        </attvalues>
+      </node>
+      <node id="Fort-Leonard-Wood, Missouri" label="Fort-Leonard-Wood, Missouri">
+        <attvalues>
+          <attvalue for="0" value="37.7380556" />
+          <attvalue for="1" value="Fort-Leonard-Wood" />
+          <attvalue for="2" value="Missouri" />
+          <attvalue for="3" value="-92.1172222" />
+        </attvalues>
+      </node>
+      <node id="Auburn-Hills, Michigan" label="Auburn-Hills, Michigan">
+        <attvalues>
+          <attvalue for="0" value="42.6875323" />
+          <attvalue for="1" value="Auburn-Hills" />
+          <attvalue for="2" value="Michigan" />
+          <attvalue for="3" value="-83.2341028" />
+        </attvalues>
+      </node>
+      <node id="Marine, Illinois" label="Marine, Illinois">
+        <attvalues>
+          <attvalue for="0" value="38.7864361" />
+          <attvalue for="1" value="Marine" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-89.7775939" />
+        </attvalues>
+      </node>
+      <node id="Monrovia, California" label="Monrovia, California">
+        <attvalues>
+          <attvalue for="0" value="34.1442616" />
+          <attvalue for="1" value="Monrovia" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-118.0019482" />
+        </attvalues>
+      </node>
+      <node id="Green-Lake, Wisconsin" label="Green-Lake, Wisconsin">
+        <attvalues>
+          <attvalue for="0" value="43.8441481" />
+          <attvalue for="1" value="Green-Lake" />
+          <attvalue for="2" value="Wisconsin" />
+          <attvalue for="3" value="-88.9601133" />
+        </attvalues>
+      </node>
+      <node id="River-Falls, Wisconsin" label="River-Falls, Wisconsin">
+        <attvalues>
+          <attvalue for="0" value="44.8613563" />
+          <attvalue for="1" value="River-Falls" />
+          <attvalue for="2" value="Wisconsin" />
+          <attvalue for="3" value="-92.6238082" />
+        </attvalues>
+      </node>
+      <node id="Maspeth, New-York" label="Maspeth, New-York">
+        <attvalues>
+          <attvalue for="0" value="40.7294018" />
+          <attvalue for="1" value="Maspeth" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-73.9065883" />
+        </attvalues>
+      </node>
+      <node id="Liverpool, New-York" label="Liverpool, New-York">
+        <attvalues>
+          <attvalue for="0" value="43.106456" />
+          <attvalue for="1" value="Liverpool" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-76.2177046" />
+        </attvalues>
+      </node>
+      <node id="Rochester-Hills, Michigan" label="Rochester-Hills, Michigan">
+        <attvalues>
+          <attvalue for="0" value="42.6583661" />
+          <attvalue for="1" value="Rochester-Hills" />
+          <attvalue for="2" value="Michigan" />
+          <attvalue for="3" value="-83.1499322" />
+        </attvalues>
+      </node>
+      <node id="DuBois, Pennsylvania" label="DuBois, Pennsylvania">
+        <attvalues>
+          <attvalue for="0" value="41.1210115" />
+          <attvalue for="1" value="DuBois" />
+          <attvalue for="2" value="Pennsylvania" />
+          <attvalue for="3" value="-78.7583257" />
+        </attvalues>
+      </node>
+      <node id="Stoneham, Massachusetts" label="Stoneham, Massachusetts">
+        <attvalues>
+          <attvalue for="0" value="42.4802469" />
+          <attvalue for="1" value="Stoneham" />
+          <attvalue for="2" value="Massachusetts" />
+          <attvalue for="3" value="-71.0999719" />
+        </attvalues>
+      </node>
+      <node id="Pikeville, Kentucky" label="Pikeville, Kentucky">
+        <attvalues>
+          <attvalue for="0" value="37.4792672" />
+          <attvalue for="1" value="Pikeville" />
+          <attvalue for="2" value="Kentucky" />
+          <attvalue for="3" value="-82.5187629" />
+        </attvalues>
+      </node>
+      <node id="Joliet, Illinois" label="Joliet, Illinois">
+        <attvalues>
+          <attvalue for="0" value="41.525031" />
+          <attvalue for="1" value="Joliet" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-88.0817251" />
+        </attvalues>
+      </node>
+      <node id="Kent, Washington" label="Kent, Washington">
+        <attvalues>
+          <attvalue for="0" value="47.3809335" />
+          <attvalue for="1" value="Kent" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-122.2348431" />
+        </attvalues>
+      </node>
+      <node id="Orangeburg, South-Carolina" label="Orangeburg, South-Carolina">
+        <attvalues>
+          <attvalue for="0" value="33.4918203" />
+          <attvalue for="1" value="Orangeburg" />
+          <attvalue for="2" value="South-Carolina" />
+          <attvalue for="3" value="-80.8556476" />
+        </attvalues>
+      </node>
+      <node id="Paint-Bank, Virginia" label="Paint-Bank, Virginia">
+        <attvalues>
+          <attvalue for="0" value="37.5690146" />
+          <attvalue for="1" value="Paint-Bank" />
+          <attvalue for="2" value="Virginia" />
+          <attvalue for="3" value="-80.2620015" />
+        </attvalues>
+      </node>
+      <node id="Storrs, Connecticut" label="Storrs, Connecticut">
+        <attvalues>
+          <attvalue for="0" value="41.8084314" />
+          <attvalue for="1" value="Storrs" />
+          <attvalue for="2" value="Connecticut" />
+          <attvalue for="3" value="-72.2495231" />
+        </attvalues>
+      </node>
+      <node id="Sullivan-County, New-York" label="Sullivan-County, New-York">
+        <attvalues>
+          <attvalue for="0" value="41.6897493" />
+          <attvalue for="1" value="Sullivan-County" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-74.7805192" />
+        </attvalues>
+      </node>
+      <node id="Rohnert-Park, California" label="Rohnert-Park, California">
+        <attvalues>
+          <attvalue for="0" value="38.3396367" />
+          <attvalue for="1" value="Rohnert-Park" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-122.7010984" />
+        </attvalues>
+      </node>
+      <node id="Wayne-County, Pennsylvania" label="Wayne-County, Pennsylvania">
+        <attvalues>
+          <attvalue for="0" value="41.6738865" />
+          <attvalue for="1" value="Wayne-County" />
+          <attvalue for="2" value="Pennsylvania" />
+          <attvalue for="3" value="-75.2479061" />
+        </attvalues>
+      </node>
+      <node id="Bryn-Mawr, Pennsylvania" label="Bryn-Mawr, Pennsylvania">
+        <attvalues>
+          <attvalue for="0" value="40.021833" />
+          <attvalue for="1" value="Bryn-Mawr" />
+          <attvalue for="2" value="Pennsylvania" />
+          <attvalue for="3" value="-75.315854" />
+        </attvalues>
+      </node>
+      <node id="Pasadena, Maryland" label="Pasadena, Maryland">
+        <attvalues>
+          <attvalue for="0" value="39.1073317" />
+          <attvalue for="1" value="Pasadena" />
+          <attvalue for="2" value="Maryland" />
+          <attvalue for="3" value="-76.5710753" />
+        </attvalues>
+      </node>
+      <node id="Parker, Colorado" label="Parker, Colorado">
+        <attvalues>
+          <attvalue for="0" value="39.5186002" />
+          <attvalue for="1" value="Parker" />
+          <attvalue for="2" value="Colorado" />
+          <attvalue for="3" value="-104.7613633" />
+        </attvalues>
+      </node>
+      <node id="Lake-Champlain, Vermont" label="Lake-Champlain, Vermont">
+        <attvalues>
+          <attvalue for="0" value="44.586581" />
+          <attvalue for="1" value="Lake-Champlain" />
+          <attvalue for="2" value="Vermont" />
+          <attvalue for="3" value="-73.3800905" />
+        </attvalues>
+      </node>
+      <node id="Savage, Minnesota" label="Savage, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="44.7647329" />
+          <attvalue for="1" value="Savage" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-93.3591147" />
+        </attvalues>
+      </node>
+      <node id="Springfield, Tennessee" label="Springfield, Tennessee">
+        <attvalues>
+          <attvalue for="0" value="36.5092118" />
+          <attvalue for="1" value="Springfield" />
+          <attvalue for="2" value="Tennessee" />
+          <attvalue for="3" value="-86.8849984" />
+        </attvalues>
+      </node>
+      <node id="McDonough, Georgia" label="McDonough, Georgia">
+        <attvalues>
+          <attvalue for="0" value="33.4473361" />
+          <attvalue for="1" value="McDonough" />
+          <attvalue for="2" value="Georgia" />
+          <attvalue for="3" value="-84.1468616" />
+        </attvalues>
+      </node>
+      <node id="Dalhart, Texas" label="Dalhart, Texas">
+        <attvalues>
+          <attvalue for="0" value="36.0594772" />
+          <attvalue for="1" value="Dalhart" />
+          <attvalue for="2" value="Texas" />
+          <attvalue for="3" value="-102.5132497" />
+        </attvalues>
+      </node>
+      <node id="Chelmsford, Massachusetts" label="Chelmsford, Massachusetts">
+        <attvalues>
+          <attvalue for="0" value="42.5998139" />
+          <attvalue for="1" value="Chelmsford" />
+          <attvalue for="2" value="Massachusetts" />
+          <attvalue for="3" value="-71.3672838" />
+        </attvalues>
+      </node>
+      <node id="Anderson, California" label="Anderson, California">
+        <attvalues>
+          <attvalue for="0" value="40.448208" />
+          <attvalue for="1" value="Anderson" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-122.2977815" />
+        </attvalues>
+      </node>
+      <node id="Mission, Kansas" label="Mission, Kansas">
+        <attvalues>
+          <attvalue for="0" value="39.0277832" />
+          <attvalue for="1" value="Mission" />
+          <attvalue for="2" value="Kansas" />
+          <attvalue for="3" value="-94.6557914" />
+        </attvalues>
+      </node>
+      <node id="Plymouth, Minnesota" label="Plymouth, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="45.0105194" />
+          <attvalue for="1" value="Plymouth" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-93.4555093" />
+        </attvalues>
+      </node>
+      <node id="Carrabassett-Valley, Maine" label="Carrabassett-Valley, Maine">
+        <attvalues>
+          <attvalue for="0" value="45.0736009" />
+          <attvalue for="1" value="Carrabassett-Valley" />
+          <attvalue for="2" value="Maine" />
+          <attvalue for="3" value="-70.2616873" />
+        </attvalues>
+      </node>
+      <node id="Jasonville, Indiana" label="Jasonville, Indiana">
+        <attvalues>
+          <attvalue for="0" value="39.163098" />
+          <attvalue for="1" value="Jasonville" />
+          <attvalue for="2" value="Indiana" />
+          <attvalue for="3" value="-87.1991807" />
+        </attvalues>
+      </node>
+      <node id="Uxbridge, Massachusetts" label="Uxbridge, Massachusetts">
+        <attvalues>
+          <attvalue for="0" value="42.0772429" />
+          <attvalue for="1" value="Uxbridge" />
+          <attvalue for="2" value="Massachusetts" />
+          <attvalue for="3" value="-71.6302532" />
+        </attvalues>
+      </node>
+      <node id="Dublin, California" label="Dublin, California">
+        <attvalues>
+          <attvalue for="0" value="37.7021521" />
+          <attvalue for="1" value="Dublin" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-121.9357918" />
+        </attvalues>
+      </node>
+      <node id="Newton, Massachusetts" label="Newton, Massachusetts">
+        <attvalues>
+          <attvalue for="0" value="42.3370413" />
+          <attvalue for="1" value="Newton" />
+          <attvalue for="2" value="Massachusetts" />
+          <attvalue for="3" value="-71.2092214" />
+        </attvalues>
+      </node>
+      <node id="Jamesburg-Monroe, New-Jersey" label="Jamesburg-Monroe, New-Jersey">
+        <attvalues>
+          <attvalue for="0" value="40.3560494" />
+          <attvalue for="1" value="Jamesburg-Monroe" />
+          <attvalue for="2" value="New-Jersey" />
+          <attvalue for="3" value="-74.471469" />
+        </attvalues>
+      </node>
+      <node id="Yorba-Linda, California" label="Yorba-Linda, California">
+        <attvalues>
+          <attvalue for="0" value="33.8886259" />
+          <attvalue for="1" value="Yorba-Linda" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-117.8131125" />
+        </attvalues>
+      </node>
+      <node id="Homer-Glen, Illinois" label="Homer-Glen, Illinois">
+        <attvalues>
+          <attvalue for="0" value="41.6000317" />
+          <attvalue for="1" value="Homer-Glen" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-87.9381112" />
+        </attvalues>
+      </node>
+      <node id="Bolton-Landing, New-York" label="Bolton-Landing, New-York">
+        <attvalues>
+          <attvalue for="0" value="43.5572222" />
+          <attvalue for="1" value="Bolton-Landing" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-73.6547222" />
+        </attvalues>
+      </node>
+      <node id="Geneva, Illinois" label="Geneva, Illinois">
+        <attvalues>
+          <attvalue for="0" value="41.8875281" />
+          <attvalue for="1" value="Geneva" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-88.3053525" />
+        </attvalues>
+      </node>
+      <node id="Kinston, North-Carolina" label="Kinston, North-Carolina">
+        <attvalues>
+          <attvalue for="0" value="35.2626635" />
+          <attvalue for="1" value="Kinston" />
+          <attvalue for="2" value="North-Carolina" />
+          <attvalue for="3" value="-77.5816353" />
+        </attvalues>
+      </node>
+      <node id="Molson, Washington" label="Molson, Washington">
+        <attvalues>
+          <attvalue for="0" value="48.9811111" />
+          <attvalue for="1" value="Molson" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-119.2005556" />
+        </attvalues>
+      </node>
+      <node id="Omak, Washington" label="Omak, Washington">
+        <attvalues>
+          <attvalue for="0" value="48.4109853" />
+          <attvalue for="1" value="Omak" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-119.5275506" />
+        </attvalues>
+      </node>
+      <node id="Eastsound, Washington" label="Eastsound, Washington">
+        <attvalues>
+          <attvalue for="0" value="48.696654" />
+          <attvalue for="1" value="Eastsound" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-122.9061069" />
+        </attvalues>
+      </node>
+      <node id="Fond-du-Lac, Wisconsin" label="Fond-du-Lac, Wisconsin">
+        <attvalues>
+          <attvalue for="0" value="43.7730448" />
+          <attvalue for="1" value="Fond-du-Lac" />
+          <attvalue for="2" value="Wisconsin" />
+          <attvalue for="3" value="-88.4470508" />
+        </attvalues>
+      </node>
+      <node id="Apple-Valley, Minnesota" label="Apple-Valley, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="44.7319094" />
+          <attvalue for="1" value="Apple-Valley" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-93.21772" />
+        </attvalues>
+      </node>
+      <node id="Elyria, Ohio" label="Elyria, Ohio">
+        <attvalues>
+          <attvalue for="0" value="41.3683798" />
+          <attvalue for="1" value="Elyria" />
+          <attvalue for="2" value="Ohio" />
+          <attvalue for="3" value="-82.1076486" />
+        </attvalues>
+      </node>
+      <node id="Madras, Oregon" label="Madras, Oregon">
+        <attvalues>
+          <attvalue for="0" value="44.6334544" />
+          <attvalue for="1" value="Madras" />
+          <attvalue for="2" value="Oregon" />
+          <attvalue for="3" value="-121.1294872" />
+        </attvalues>
+      </node>
+      <node id="Blackwood, New-Jersey" label="Blackwood, New-Jersey">
+        <attvalues>
+          <attvalue for="0" value="39.8023363" />
+          <attvalue for="1" value="Blackwood" />
+          <attvalue for="2" value="New-Jersey" />
+          <attvalue for="3" value="-75.0640602" />
+        </attvalues>
+      </node>
+      <node id="Greenville, Maine" label="Greenville, Maine">
+        <attvalues>
+          <attvalue for="0" value="45.4594863" />
+          <attvalue for="1" value="Greenville" />
+          <attvalue for="2" value="Maine" />
+          <attvalue for="3" value="-69.5905815" />
+        </attvalues>
+      </node>
+      <node id="Vestal, New-York" label="Vestal, New-York">
+        <attvalues>
+          <attvalue for="0" value="42.0850747" />
+          <attvalue for="1" value="Vestal" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-76.053813" />
+        </attvalues>
+      </node>
+      <node id="Alachua, Florida" label="Alachua, Florida">
+        <attvalues>
+          <attvalue for="0" value="29.7938144" />
+          <attvalue for="1" value="Alachua" />
+          <attvalue for="2" value="Florida" />
+          <attvalue for="3" value="-82.4944226" />
+        </attvalues>
+      </node>
+      <node id="Ripon, Wisconsin" label="Ripon, Wisconsin">
+        <attvalues>
+          <attvalue for="0" value="43.8422049" />
+          <attvalue for="1" value="Ripon" />
+          <attvalue for="2" value="Wisconsin" />
+          <attvalue for="3" value="-88.8359447" />
+        </attvalues>
+      </node>
+      <node id="Bourbonnais, Illinois" label="Bourbonnais, Illinois">
+        <attvalues>
+          <attvalue for="0" value="41.1830556" />
+          <attvalue for="1" value="Bourbonnais" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-87.8780556" />
+        </attvalues>
+      </node>
+      <node id="League-City, Texas" label="League-City, Texas">
+        <attvalues>
+          <attvalue for="0" value="29.5074538" />
+          <attvalue for="1" value="League-City" />
+          <attvalue for="2" value="Texas" />
+          <attvalue for="3" value="-95.0949303" />
+        </attvalues>
+      </node>
+      <node id="Lenoir, North-Carolina" label="Lenoir, North-Carolina">
+        <attvalues>
+          <attvalue for="0" value="35.9140196" />
+          <attvalue for="1" value="Lenoir" />
+          <attvalue for="2" value="North-Carolina" />
+          <attvalue for="3" value="-81.5389849" />
+        </attvalues>
+      </node>
+      <node id="Eagle-Bend, Minnesota" label="Eagle-Bend, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="46.1649632" />
+          <attvalue for="1" value="Eagle-Bend" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-95.0391936" />
+        </attvalues>
+      </node>
+      <node id="Lake-City, Michigan" label="Lake-City, Michigan">
+        <attvalues>
+          <attvalue for="0" value="44.3352872" />
+          <attvalue for="1" value="Lake-City" />
+          <attvalue for="2" value="Michigan" />
+          <attvalue for="3" value="-85.2150455" />
+        </attvalues>
+      </node>
+      <node id="Maple-Falls, Washington" label="Maple-Falls, Washington">
+        <attvalues>
+          <attvalue for="0" value="48.9242888" />
+          <attvalue for="1" value="Maple-Falls" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-122.077093" />
+        </attvalues>
+      </node>
+      <node id="Angwin, California" label="Angwin, California">
+        <attvalues>
+          <attvalue for="0" value="38.5757402" />
+          <attvalue for="1" value="Angwin" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-122.4499796" />
+        </attvalues>
+      </node>
+      <node id="Fort-Washington, Pennsylvania" label="Fort-Washington, Pennsylvania">
+        <attvalues>
+          <attvalue for="0" value="40.1416782" />
+          <attvalue for="1" value="Fort-Washington" />
+          <attvalue for="2" value="Pennsylvania" />
+          <attvalue for="3" value="-75.1926937" />
+        </attvalues>
+      </node>
+      <node id="Baxter, California" label="Baxter, California">
+        <attvalues>
+          <attvalue for="0" value="39.2130556" />
+          <attvalue for="1" value="Baxter" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-120.7811111" />
+        </attvalues>
+      </node>
+      <node id="Cross-Lanes, West-Virginia" label="Cross-Lanes, West-Virginia">
+        <attvalues>
+          <attvalue for="0" value="38.4203709" />
+          <attvalue for="1" value="Cross-Lanes" />
+          <attvalue for="2" value="West-Virginia" />
+          <attvalue for="3" value="-81.7906847" />
+        </attvalues>
+      </node>
+      <node id="Peachtree-City, Georgia" label="Peachtree-City, Georgia">
+        <attvalues>
+          <attvalue for="0" value="33.3967829" />
+          <attvalue for="1" value="Peachtree-City" />
+          <attvalue for="2" value="Georgia" />
+          <attvalue for="3" value="-84.5957629" />
+        </attvalues>
+      </node>
+      <node id="Morganton, North-Carolina" label="Morganton, North-Carolina">
+        <attvalues>
+          <attvalue for="0" value="35.7454071" />
+          <attvalue for="1" value="Morganton" />
+          <attvalue for="2" value="North-Carolina" />
+          <attvalue for="3" value="-81.6848188" />
+        </attvalues>
+      </node>
+      <node id="Golden-Valley, Minnesota" label="Golden-Valley, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="44.9917149" />
+          <attvalue for="1" value="Golden-Valley" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-93.3600034" />
+        </attvalues>
+      </node>
+      <node id="Lynnwood, Washington" label="Lynnwood, Washington">
+        <attvalues>
+          <attvalue for="0" value="47.8209301" />
+          <attvalue for="1" value="Lynnwood" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-122.3151313" />
+        </attvalues>
+      </node>
+      <node id="Neptune-Township, New-Jersey" label="Neptune-Township, New-Jersey">
+        <attvalues>
+          <attvalue for="0" value="40.2091219" />
+          <attvalue for="1" value="Neptune-Township" />
+          <attvalue for="2" value="New-Jersey" />
+          <attvalue for="3" value="-74.0386271" />
+        </attvalues>
+      </node>
+      <node id="Bonita-Springs, Florida" label="Bonita-Springs, Florida">
+        <attvalues>
+          <attvalue for="0" value="26.339806" />
+          <attvalue for="1" value="Bonita-Springs" />
+          <attvalue for="2" value="Florida" />
+          <attvalue for="3" value="-81.7786972" />
+        </attvalues>
+      </node>
+      <node id="Sebring, Florida" label="Sebring, Florida">
+        <attvalues>
+          <attvalue for="0" value="27.495592" />
+          <attvalue for="1" value="Sebring" />
+          <attvalue for="2" value="Florida" />
+          <attvalue for="3" value="-81.440907" />
+        </attvalues>
+      </node>
+      <node id="Royal-Oak, Michigan" label="Royal-Oak, Michigan">
+        <attvalues>
+          <attvalue for="0" value="42.4894801" />
+          <attvalue for="1" value="Royal-Oak" />
+          <attvalue for="2" value="Michigan" />
+          <attvalue for="3" value="-83.1446485" />
+        </attvalues>
+      </node>
+      <node id="Lincoln, Illinois" label="Lincoln, Illinois">
+        <attvalues>
+          <attvalue for="0" value="40.1483768" />
+          <attvalue for="1" value="Lincoln" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-89.3648183" />
+        </attvalues>
+      </node>
+      <node id="McLean, Virginia" label="McLean, Virginia">
+        <attvalues>
+          <attvalue for="0" value="38.9338676" />
+          <attvalue for="1" value="McLean" />
+          <attvalue for="2" value="Virginia" />
+          <attvalue for="3" value="-77.1772604" />
+        </attvalues>
+      </node>
+      <node id="Garden-Grove, California" label="Garden-Grove, California">
+        <attvalues>
+          <attvalue for="0" value="33.7739053" />
+          <attvalue for="1" value="Garden-Grove" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-117.9414477" />
+        </attvalues>
+      </node>
+      <node id="Council-Bluffs, Iowa" label="Council-Bluffs, Iowa">
+        <attvalues>
+          <attvalue for="0" value="41.2619444" />
+          <attvalue for="1" value="Council-Bluffs" />
+          <attvalue for="2" value="Iowa" />
+          <attvalue for="3" value="-95.8608333" />
+        </attvalues>
+      </node>
+      <node id="Carrollton, Georgia" label="Carrollton, Georgia">
+        <attvalues>
+          <attvalue for="0" value="33.5801103" />
+          <attvalue for="1" value="Carrollton" />
+          <attvalue for="2" value="Georgia" />
+          <attvalue for="3" value="-85.0766113" />
+        </attvalues>
+      </node>
+      <node id="Loganville, Georgia" label="Loganville, Georgia">
+        <attvalues>
+          <attvalue for="0" value="33.8389977" />
+          <attvalue for="1" value="Loganville" />
+          <attvalue for="2" value="Georgia" />
+          <attvalue for="3" value="-83.9007382" />
+        </attvalues>
+      </node>
+      <node id="Murrieta, California" label="Murrieta, California">
+        <attvalues>
+          <attvalue for="0" value="33.5539143" />
+          <attvalue for="1" value="Murrieta" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-117.2139232" />
+        </attvalues>
+      </node>
+      <node id="Fieldbrook, California" label="Fieldbrook, California">
+        <attvalues>
+          <attvalue for="0" value="40.963237" />
+          <attvalue for="1" value="Fieldbrook" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-124.0248012" />
+        </attvalues>
+      </node>
+      <node id="Isle, Minnesota" label="Isle, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="46.138011" />
+          <attvalue for="1" value="Isle" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-93.4707923" />
+        </attvalues>
+      </node>
+      <node id="Radford, Virginia" label="Radford, Virginia">
+        <attvalues>
+          <attvalue for="0" value="37.1317924" />
+          <attvalue for="1" value="Radford" />
+          <attvalue for="2" value="Virginia" />
+          <attvalue for="3" value="-80.5764477" />
+        </attvalues>
+      </node>
+      <node id="Merrillville, Indiana" label="Merrillville, Indiana">
+        <attvalues>
+          <attvalue for="0" value="41.4828144" />
+          <attvalue for="1" value="Merrillville" />
+          <attvalue for="2" value="Indiana" />
+          <attvalue for="3" value="-87.3328139" />
+        </attvalues>
+      </node>
+      <node id="Richland, Washington" label="Richland, Washington">
+        <attvalues>
+          <attvalue for="0" value="46.2856907" />
+          <attvalue for="1" value="Richland" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-119.2844621" />
+        </attvalues>
+      </node>
+      <node id="Washburn, Wisconsin" label="Washburn, Wisconsin">
+        <attvalues>
+          <attvalue for="0" value="46.6732722" />
+          <attvalue for="1" value="Washburn" />
+          <attvalue for="2" value="Wisconsin" />
+          <attvalue for="3" value="-90.8949075" />
+        </attvalues>
+      </node>
+      <node id="Nederland, Colorado" label="Nederland, Colorado">
+        <attvalues>
+          <attvalue for="0" value="39.9613759" />
+          <attvalue for="1" value="Nederland" />
+          <attvalue for="2" value="Colorado" />
+          <attvalue for="3" value="-105.5108312" />
+        </attvalues>
+      </node>
+      <node id="Broken-Arrow, Oklahoma" label="Broken-Arrow, Oklahoma">
+        <attvalues>
+          <attvalue for="0" value="36.0565606" />
+          <attvalue for="1" value="Broken-Arrow" />
+          <attvalue for="2" value="Oklahoma" />
+          <attvalue for="3" value="-95.7835194" />
+        </attvalues>
+      </node>
+      <node id="Rockwall, Texas" label="Rockwall, Texas">
+        <attvalues>
+          <attvalue for="0" value="32.9312336" />
+          <attvalue for="1" value="Rockwall" />
+          <attvalue for="2" value="Texas" />
+          <attvalue for="3" value="-96.4597089" />
+        </attvalues>
+      </node>
+      <node id="Dunmore, Pennsylvania" label="Dunmore, Pennsylvania">
+        <attvalues>
+          <attvalue for="0" value="41.4198027" />
+          <attvalue for="1" value="Dunmore" />
+          <attvalue for="2" value="Pennsylvania" />
+          <attvalue for="3" value="-75.6324112" />
+        </attvalues>
+      </node>
+      <node id="New-Milford, Connecticut" label="New-Milford, Connecticut">
+        <attvalues>
+          <attvalue for="0" value="41.5770433" />
+          <attvalue for="1" value="New-Milford" />
+          <attvalue for="2" value="Connecticut" />
+          <attvalue for="3" value="-73.4085463" />
+        </attvalues>
+      </node>
+      <node id="Port-Washington, Wisconsin" label="Port-Washington, Wisconsin">
+        <attvalues>
+          <attvalue for="0" value="43.3872247" />
+          <attvalue for="1" value="Port-Washington" />
+          <attvalue for="2" value="Wisconsin" />
+          <attvalue for="3" value="-87.875644" />
+        </attvalues>
+      </node>
+      <node id="Herndon, Virginia" label="Herndon, Virginia">
+        <attvalues>
+          <attvalue for="0" value="38.9695545" />
+          <attvalue for="1" value="Herndon" />
+          <attvalue for="2" value="Virginia" />
+          <attvalue for="3" value="-77.3860976" />
+        </attvalues>
+      </node>
+      <node id="Macungie, Pennsylvania" label="Macungie, Pennsylvania">
+        <attvalues>
+          <attvalue for="0" value="40.5159304" />
+          <attvalue for="1" value="Macungie" />
+          <attvalue for="2" value="Pennsylvania" />
+          <attvalue for="3" value="-75.5551858" />
+        </attvalues>
+      </node>
+      <node id="Round-Lake, Illinois" label="Round-Lake, Illinois">
+        <attvalues>
+          <attvalue for="0" value="42.353355" />
+          <attvalue for="1" value="Round-Lake" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-88.0934145" />
+        </attvalues>
+      </node>
+      <node id="Fishers, Indiana" label="Fishers, Indiana">
+        <attvalues>
+          <attvalue for="0" value="39.9567548" />
+          <attvalue for="1" value="Fishers" />
+          <attvalue for="2" value="Indiana" />
+          <attvalue for="3" value="-86.01335" />
+        </attvalues>
+      </node>
+      <node id="Paonia, Colorado" label="Paonia, Colorado">
+        <attvalues>
+          <attvalue for="0" value="38.8683204" />
+          <attvalue for="1" value="Paonia" />
+          <attvalue for="2" value="Colorado" />
+          <attvalue for="3" value="-107.5920017" />
+        </attvalues>
+      </node>
+      <node id="Matthews, North-Carolina" label="Matthews, North-Carolina">
+        <attvalues>
+          <attvalue for="0" value="35.1168131" />
+          <attvalue for="1" value="Matthews" />
+          <attvalue for="2" value="North-Carolina" />
+          <attvalue for="3" value="-80.7236804" />
+        </attvalues>
+      </node>
+      <node id="Denville, New-Jersey" label="Denville, New-Jersey">
+        <attvalues>
+          <attvalue for="0" value="40.8923212" />
+          <attvalue for="1" value="Denville" />
+          <attvalue for="2" value="New-Jersey" />
+          <attvalue for="3" value="-74.4773775" />
+        </attvalues>
+      </node>
+      <node id="Potter-County, Pennsylvania" label="Potter-County, Pennsylvania">
+        <attvalues>
+          <attvalue for="0" value="41.6682559" />
+          <attvalue for="1" value="Potter-County" />
+          <attvalue for="2" value="Pennsylvania" />
+          <attvalue for="3" value="-77.8367282" />
+        </attvalues>
+      </node>
+      <node id="Circleville, Ohio" label="Circleville, Ohio">
+        <attvalues>
+          <attvalue for="0" value="39.600618" />
+          <attvalue for="1" value="Circleville" />
+          <attvalue for="2" value="Ohio" />
+          <attvalue for="3" value="-82.9460133" />
+        </attvalues>
+      </node>
+      <node id="Micanopy, Florida" label="Micanopy, Florida">
+        <attvalues>
+          <attvalue for="0" value="29.504692" />
+          <attvalue for="1" value="Micanopy" />
+          <attvalue for="2" value="Florida" />
+          <attvalue for="3" value="-82.2798227" />
+        </attvalues>
+      </node>
+      <node id="Blinn-, Texas" label="Blinn-, Texas">
+        <attvalues>
+          <attvalue for="0" value="29.5676918" />
+          <attvalue for="1" value="Blinn-" />
+          <attvalue for="2" value="Texas" />
+          <attvalue for="3" value="-98.5809827" />
+        </attvalues>
+      </node>
+      <node id="Renton, Washington" label="Renton, Washington">
+        <attvalues>
+          <attvalue for="0" value="47.4828776" />
+          <attvalue for="1" value="Renton" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-122.2170661" />
+        </attvalues>
+      </node>
+      <node id="Salado, Texas" label="Salado, Texas">
+        <attvalues>
+          <attvalue for="0" value="30.9471278" />
+          <attvalue for="1" value="Salado" />
+          <attvalue for="2" value="Texas" />
+          <attvalue for="3" value="-97.5386204" />
+        </attvalues>
+      </node>
+      <node id="Las-Animas, Colorado" label="Las-Animas, Colorado">
+        <attvalues>
+          <attvalue for="0" value="38.0666735" />
+          <attvalue for="1" value="Las-Animas" />
+          <attvalue for="2" value="Colorado" />
+          <attvalue for="3" value="-103.222708" />
+        </attvalues>
+      </node>
+      <node id="El-Cerrito, California" label="El-Cerrito, California">
+        <attvalues>
+          <attvalue for="0" value="37.9161326" />
+          <attvalue for="1" value="El-Cerrito" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-122.310765" />
+        </attvalues>
+      </node>
+      <node id="Ruston, Louisiana" label="Ruston, Louisiana">
+        <attvalues>
+          <attvalue for="0" value="32.5232053" />
+          <attvalue for="1" value="Ruston" />
+          <attvalue for="2" value="Louisiana" />
+          <attvalue for="3" value="-92.637927" />
+        </attvalues>
+      </node>
+      <node id="Tustin, California" label="Tustin, California">
+        <attvalues>
+          <attvalue for="0" value="33.7458511" />
+          <attvalue for="1" value="Tustin" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-117.826166" />
+        </attvalues>
+      </node>
+      <node id="New-Canaan, Connecticut" label="New-Canaan, Connecticut">
+        <attvalues>
+          <attvalue for="0" value="41.146763" />
+          <attvalue for="1" value="New-Canaan" />
+          <attvalue for="2" value="Connecticut" />
+          <attvalue for="3" value="-73.4948445" />
+        </attvalues>
+      </node>
+      <node id="Orchard-Park, New-York" label="Orchard-Park, New-York">
+        <attvalues>
+          <attvalue for="0" value="42.7675593" />
+          <attvalue for="1" value="Orchard-Park" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-78.7439189" />
+        </attvalues>
+      </node>
+      <node id="Greenwood, Indiana" label="Greenwood, Indiana">
+        <attvalues>
+          <attvalue for="0" value="39.6136578" />
+          <attvalue for="1" value="Greenwood" />
+          <attvalue for="2" value="Indiana" />
+          <attvalue for="3" value="-86.1066526" />
+        </attvalues>
+      </node>
+      <node id="Helen, Georgia" label="Helen, Georgia">
+        <attvalues>
+          <attvalue for="0" value="34.7014839" />
+          <attvalue for="1" value="Helen" />
+          <attvalue for="2" value="Georgia" />
+          <attvalue for="3" value="-83.7315675" />
+        </attvalues>
+      </node>
+      <node id="Negaunee, Michigan" label="Negaunee, Michigan">
+        <attvalues>
+          <attvalue for="0" value="46.5090928" />
+          <attvalue for="1" value="Negaunee" />
+          <attvalue for="2" value="Michigan" />
+          <attvalue for="3" value="-87.6068721" />
+        </attvalues>
+      </node>
+      <node id="Orono, Maine" label="Orono, Maine">
+        <attvalues>
+          <attvalue for="0" value="44.8831125" />
+          <attvalue for="1" value="Orono" />
+          <attvalue for="2" value="Maine" />
+          <attvalue for="3" value="-68.6719411" />
+        </attvalues>
+      </node>
+      <node id="Bedford, Texas" label="Bedford, Texas">
+        <attvalues>
+          <attvalue for="0" value="32.844017" />
+          <attvalue for="1" value="Bedford" />
+          <attvalue for="2" value="Texas" />
+          <attvalue for="3" value="-97.1430671" />
+        </attvalues>
+      </node>
+      <node id="Cranford, New-Jersey" label="Cranford, New-Jersey">
+        <attvalues>
+          <attvalue for="0" value="40.6584212" />
+          <attvalue for="1" value="Cranford" />
+          <attvalue for="2" value="New-Jersey" />
+          <attvalue for="3" value="-74.2995928" />
+        </attvalues>
+      </node>
+      <node id="Bay-Lake, Florida" label="Bay-Lake, Florida">
+        <attvalues>
+          <attvalue for="0" value="28.3886186" />
+          <attvalue for="1" value="Bay-Lake" />
+          <attvalue for="2" value="Florida" />
+          <attvalue for="3" value="-81.5659069" />
+        </attvalues>
+      </node>
+      <node id="Salem, New-Hampshire" label="Salem, New-Hampshire">
+        <attvalues>
+          <attvalue for="0" value="42.7936852" />
+          <attvalue for="1" value="Salem" />
+          <attvalue for="2" value="New-Hampshire" />
+          <attvalue for="3" value="-71.2215202" />
+        </attvalues>
+      </node>
+      <node id="Rye, New-York" label="Rye, New-York">
+        <attvalues>
+          <attvalue for="0" value="40.9806535" />
+          <attvalue for="1" value="Rye" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-73.6837399" />
+        </attvalues>
+      </node>
+      <node id="Mayfield-Heights, Ohio" label="Mayfield-Heights, Ohio">
+        <attvalues>
+          <attvalue for="0" value="41.5192189" />
+          <attvalue for="1" value="Mayfield-Heights" />
+          <attvalue for="2" value="Ohio" />
+          <attvalue for="3" value="-81.457896" />
+        </attvalues>
+      </node>
+      <node id="Niwot, Colorado" label="Niwot, Colorado">
+        <attvalues>
+          <attvalue for="0" value="40.103874" />
+          <attvalue for="1" value="Niwot" />
+          <attvalue for="2" value="Colorado" />
+          <attvalue for="3" value="-105.1708193" />
+        </attvalues>
+      </node>
+      <node id="Boothville, Louisiana" label="Boothville, Louisiana">
+        <attvalues>
+          <attvalue for="0" value="29.3177778" />
+          <attvalue for="1" value="Boothville" />
+          <attvalue for="2" value="Louisiana" />
+          <attvalue for="3" value="-89.3902778" />
+        </attvalues>
+      </node>
+      <node id="Perry-County, Pennsylvania" label="Perry-County, Pennsylvania">
+        <attvalues>
+          <attvalue for="0" value="40.371376" />
+          <attvalue for="1" value="Perry-County" />
+          <attvalue for="2" value="Pennsylvania" />
+          <attvalue for="3" value="-77.2405153" />
+        </attvalues>
+      </node>
+      <node id="Grinnell, Iowa" label="Grinnell, Iowa">
+        <attvalues>
+          <attvalue for="0" value="41.7436111" />
+          <attvalue for="1" value="Grinnell" />
+          <attvalue for="2" value="Iowa" />
+          <attvalue for="3" value="-92.7247222" />
+        </attvalues>
+      </node>
+      <node id="Brainerd, Minnesota" label="Brainerd, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="46.35297" />
+          <attvalue for="1" value="Brainerd" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-94.199982" />
+        </attvalues>
+      </node>
+      <node id="East-Montpelier, Vermont" label="East-Montpelier, Vermont">
+        <attvalues>
+          <attvalue for="0" value="44.2711706" />
+          <attvalue for="1" value="East-Montpelier" />
+          <attvalue for="2" value="Vermont" />
+          <attvalue for="3" value="-72.4870503" />
+        </attvalues>
+      </node>
+      <node id="Mansfield, Massachusetts" label="Mansfield, Massachusetts">
+        <attvalues>
+          <attvalue for="0" value="42.0334565" />
+          <attvalue for="1" value="Mansfield" />
+          <attvalue for="2" value="Massachusetts" />
+          <attvalue for="3" value="-71.2190578" />
+        </attvalues>
+      </node>
+      <node id="Niles, Illinois" label="Niles, Illinois">
+        <attvalues>
+          <attvalue for="0" value="42.0189191" />
+          <attvalue for="1" value="Niles" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-87.8028402" />
+        </attvalues>
+      </node>
+      <node id="Buford, Georgia" label="Buford, Georgia">
+        <attvalues>
+          <attvalue for="0" value="34.1206564" />
+          <attvalue for="1" value="Buford" />
+          <attvalue for="2" value="Georgia" />
+          <attvalue for="3" value="-84.0043513" />
+        </attvalues>
+      </node>
+      <node id="Warrenton, Virginia" label="Warrenton, Virginia">
+        <attvalues>
+          <attvalue for="0" value="38.7134516" />
+          <attvalue for="1" value="Warrenton" />
+          <attvalue for="2" value="Virginia" />
+          <attvalue for="3" value="-77.7952712" />
+        </attvalues>
+      </node>
+      <node id="Granite-City, Illinois" label="Granite-City, Illinois">
+        <attvalues>
+          <attvalue for="0" value="38.7014389" />
+          <attvalue for="1" value="Granite-City" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-90.1487199" />
+        </attvalues>
+      </node>
+      <node id="Middletown, Rhode-Island" label="Middletown, Rhode-Island">
+        <attvalues>
+          <attvalue for="0" value="41.5218243" />
+          <attvalue for="1" value="Middletown" />
+          <attvalue for="2" value="Rhode-Island" />
+          <attvalue for="3" value="-71.2834538" />
+        </attvalues>
+      </node>
+      <node id="Americus, Georgia" label="Americus, Georgia">
+        <attvalues>
+          <attvalue for="0" value="32.0723861" />
+          <attvalue for="1" value="Americus" />
+          <attvalue for="2" value="Georgia" />
+          <attvalue for="3" value="-84.2326876" />
+        </attvalues>
+      </node>
+      <node id="Crete, Nebraska" label="Crete, Nebraska">
+        <attvalues>
+          <attvalue for="0" value="40.6252173" />
+          <attvalue for="1" value="Crete" />
+          <attvalue for="2" value="Nebraska" />
+          <attvalue for="3" value="-96.9615141" />
+        </attvalues>
+      </node>
+      <node id="Cuyahoga-Falls, Ohio" label="Cuyahoga-Falls, Ohio">
+        <attvalues>
+          <attvalue for="0" value="41.1339449" />
+          <attvalue for="1" value="Cuyahoga-Falls" />
+          <attvalue for="2" value="Ohio" />
+          <attvalue for="3" value="-81.4845585" />
+        </attvalues>
+      </node>
+      <node id="Winter-Haven, Florida" label="Winter-Haven, Florida">
+        <attvalues>
+          <attvalue for="0" value="28.0222435" />
+          <attvalue for="1" value="Winter-Haven" />
+          <attvalue for="2" value="Florida" />
+          <attvalue for="3" value="-81.7328567" />
+        </attvalues>
+      </node>
+      <node id="West-Bridgewater, Massachusetts" label="West-Bridgewater, Massachusetts">
+        <attvalues>
+          <attvalue for="0" value="42.0189894" />
+          <attvalue for="1" value="West-Bridgewater" />
+          <attvalue for="2" value="Massachusetts" />
+          <attvalue for="3" value="-71.0078215" />
+        </attvalues>
+      </node>
+      <node id="National-City, California" label="National-City, California">
+        <attvalues>
+          <attvalue for="0" value="32.6781085" />
+          <attvalue for="1" value="National-City" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-117.0991967" />
+        </attvalues>
+      </node>
+      <node id="Norwich, New-York" label="Norwich, New-York">
+        <attvalues>
+          <attvalue for="0" value="42.531184" />
+          <attvalue for="1" value="Norwich" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-75.5235149" />
+        </attvalues>
+      </node>
+      <node id="Brentwood, Tennessee" label="Brentwood, Tennessee">
+        <attvalues>
+          <attvalue for="0" value="36.0331164" />
+          <attvalue for="1" value="Brentwood" />
+          <attvalue for="2" value="Tennessee" />
+          <attvalue for="3" value="-86.7827772" />
+        </attvalues>
+      </node>
+      <node id="Houghton, Michigan" label="Houghton, Michigan">
+        <attvalues>
+          <attvalue for="0" value="47.1211331" />
+          <attvalue for="1" value="Houghton" />
+          <attvalue for="2" value="Michigan" />
+          <attvalue for="3" value="-88.5694182" />
+        </attvalues>
+      </node>
+      <node id="Cadillac, Michigan" label="Cadillac, Michigan">
+        <attvalues>
+          <attvalue for="0" value="44.2519526" />
+          <attvalue for="1" value="Cadillac" />
+          <attvalue for="2" value="Michigan" />
+          <attvalue for="3" value="-85.4011619" />
+        </attvalues>
+      </node>
+      <node id="Warren, Pennsylvania" label="Warren, Pennsylvania">
+        <attvalues>
+          <attvalue for="0" value="41.8439486" />
+          <attvalue for="1" value="Warren" />
+          <attvalue for="2" value="Pennsylvania" />
+          <attvalue for="3" value="-79.1450445" />
+        </attvalues>
+      </node>
+      <node id="Camden, New-York" label="Camden, New-York">
+        <attvalues>
+          <attvalue for="0" value="43.3345138" />
+          <attvalue for="1" value="Camden" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-75.747964" />
+        </attvalues>
+      </node>
+      <node id="Tewksbury, Massachusetts" label="Tewksbury, Massachusetts">
+        <attvalues>
+          <attvalue for="0" value="42.6106478" />
+          <attvalue for="1" value="Tewksbury" />
+          <attvalue for="2" value="Massachusetts" />
+          <attvalue for="3" value="-71.2342248" />
+        </attvalues>
+      </node>
+      <node id="Wallingford, Connecticut" label="Wallingford, Connecticut">
+        <attvalues>
+          <attvalue for="0" value="41.4570108" />
+          <attvalue for="1" value="Wallingford" />
+          <attvalue for="2" value="Connecticut" />
+          <attvalue for="3" value="-72.8230736" />
+        </attvalues>
+      </node>
+      <node id="Daly-City, California" label="Daly-City, California">
+        <attvalues>
+          <attvalue for="0" value="37.6879241" />
+          <attvalue for="1" value="Daly-City" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-122.4702079" />
+        </attvalues>
+      </node>
+      <node id="Conifer, Colorado" label="Conifer, Colorado">
+        <attvalues>
+          <attvalue for="0" value="39.5210995" />
+          <attvalue for="1" value="Conifer" />
+          <attvalue for="2" value="Colorado" />
+          <attvalue for="3" value="-105.3052708" />
+        </attvalues>
+      </node>
+      <node id="Lakewood, Colorado" label="Lakewood, Colorado">
+        <attvalues>
+          <attvalue for="0" value="39.7047095" />
+          <attvalue for="1" value="Lakewood" />
+          <attvalue for="2" value="Colorado" />
+          <attvalue for="3" value="-105.0813734" />
+        </attvalues>
+      </node>
+      <node id="Nisswa, Minnesota" label="Nisswa, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="46.5205224" />
+          <attvalue for="1" value="Nisswa" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-94.2886089" />
+        </attvalues>
+      </node>
+      <node id="Troy, Missouri" label="Troy, Missouri">
+        <attvalues>
+          <attvalue for="0" value="38.9794922" />
+          <attvalue for="1" value="Troy" />
+          <attvalue for="2" value="Missouri" />
+          <attvalue for="3" value="-90.9806954" />
+        </attvalues>
+      </node>
+      <node id="Wausau, Wisconsin" label="Wausau, Wisconsin">
+        <attvalues>
+          <attvalue for="0" value="44.9591352" />
+          <attvalue for="1" value="Wausau" />
+          <attvalue for="2" value="Wisconsin" />
+          <attvalue for="3" value="-89.6301221" />
+        </attvalues>
+      </node>
+      <node id="San-Leandro, California" label="San-Leandro, California">
+        <attvalues>
+          <attvalue for="0" value="37.7249296" />
+          <attvalue for="1" value="San-Leandro" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-122.1560768" />
+        </attvalues>
+      </node>
+      <node id="Spring-Hill, Tennessee" label="Spring-Hill, Tennessee">
+        <attvalues>
+          <attvalue for="0" value="35.751179" />
+          <attvalue for="1" value="Spring-Hill" />
+          <attvalue for="2" value="Tennessee" />
+          <attvalue for="3" value="-86.9300023" />
+        </attvalues>
+      </node>
+      <node id="Brooklyn-Park, Minnesota" label="Brooklyn-Park, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="45.0941315" />
+          <attvalue for="1" value="Brooklyn-Park" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-93.3563405" />
+        </attvalues>
+      </node>
+      <node id="Baudette, Minnesota" label="Baudette, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="48.7124736" />
+          <attvalue for="1" value="Baudette" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-94.5999299" />
+        </attvalues>
+      </node>
+      <node id="Wake-Forest, North-Carolina" label="Wake-Forest, North-Carolina">
+        <attvalues>
+          <attvalue for="0" value="35.9798734" />
+          <attvalue for="1" value="Wake-Forest" />
+          <attvalue for="2" value="North-Carolina" />
+          <attvalue for="3" value="-78.5097228" />
+        </attvalues>
+      </node>
+      <node id="Glastonbury, Connecticut" label="Glastonbury, Connecticut">
+        <attvalues>
+          <attvalue for="0" value="41.6861794" />
+          <attvalue for="1" value="Glastonbury" />
+          <attvalue for="2" value="Connecticut" />
+          <attvalue for="3" value="-72.5450779" />
+        </attvalues>
+      </node>
+      <node id="Wintergreen, Virginia" label="Wintergreen, Virginia">
+        <attvalues>
+          <attvalue for="0" value="37.8848619" />
+          <attvalue for="1" value="Wintergreen" />
+          <attvalue for="2" value="Virginia" />
+          <attvalue for="3" value="-78.8994672" />
+        </attvalues>
+      </node>
+      <node id="Dalton, Georgia" label="Dalton, Georgia">
+        <attvalues>
+          <attvalue for="0" value="34.7698021" />
+          <attvalue for="1" value="Dalton" />
+          <attvalue for="2" value="Georgia" />
+          <attvalue for="3" value="-84.9702228" />
+        </attvalues>
+      </node>
+      <node id="Graham, Washington" label="Graham, Washington">
+        <attvalues>
+          <attvalue for="0" value="47.0528789" />
+          <attvalue for="1" value="Graham" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-122.2942839" />
+        </attvalues>
+      </node>
+      <node id="Cottage-Grove, Oregon" label="Cottage-Grove, Oregon">
+        <attvalues>
+          <attvalue for="0" value="43.797623" />
+          <attvalue for="1" value="Cottage-Grove" />
+          <attvalue for="2" value="Oregon" />
+          <attvalue for="3" value="-123.0595246" />
+        </attvalues>
+      </node>
+      <node id="Arkansas-City, Kansas" label="Arkansas-City, Kansas">
+        <attvalues>
+          <attvalue for="0" value="37.0619736" />
+          <attvalue for="1" value="Arkansas-City" />
+          <attvalue for="2" value="Kansas" />
+          <attvalue for="3" value="-97.0383712" />
+        </attvalues>
+      </node>
+      <node id="Castro-Valley, California" label="Castro-Valley, California">
+        <attvalues>
+          <attvalue for="0" value="37.6940973" />
+          <attvalue for="1" value="Castro-Valley" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-122.0863522" />
+        </attvalues>
+      </node>
+      <node id="Sammamish-, Washington" label="Sammamish-, Washington">
+        <attvalues>
+          <attvalue for="0" value="47.6162683" />
+          <attvalue for="1" value="Sammamish-" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-122.0355736" />
+        </attvalues>
+      </node>
+      <node id="Delavan, Wisconsin" label="Delavan, Wisconsin">
+        <attvalues>
+          <attvalue for="0" value="42.6330703" />
+          <attvalue for="1" value="Delavan" />
+          <attvalue for="2" value="Wisconsin" />
+          <attvalue for="3" value="-88.6437138" />
+        </attvalues>
+      </node>
+      <node id="DeWitt, Michigan" label="DeWitt, Michigan">
+        <attvalues>
+          <attvalue for="0" value="42.7924727" />
+          <attvalue for="1" value="DeWitt" />
+          <attvalue for="2" value="Michigan" />
+          <attvalue for="3" value="-84.5431867" />
+        </attvalues>
+      </node>
+      <node id="Mundelein, Illinois" label="Mundelein, Illinois">
+        <attvalues>
+          <attvalue for="0" value="42.263079" />
+          <attvalue for="1" value="Mundelein" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-88.0039653" />
+        </attvalues>
+      </node>
+      <node id="Canandaigua, New-York" label="Canandaigua, New-York">
+        <attvalues>
+          <attvalue for="0" value="42.887535" />
+          <attvalue for="1" value="Canandaigua" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-77.2816984" />
+        </attvalues>
+      </node>
+      <node id="Riverside, Connecticut" label="Riverside, Connecticut">
+        <attvalues>
+          <attvalue for="0" value="41.0337666" />
+          <attvalue for="1" value="Riverside" />
+          <attvalue for="2" value="Connecticut" />
+          <attvalue for="3" value="-73.5784843" />
+        </attvalues>
+      </node>
+      <node id="Chesterfield, Missouri" label="Chesterfield, Missouri">
+        <attvalues>
+          <attvalue for="0" value="38.6631083" />
+          <attvalue for="1" value="Chesterfield" />
+          <attvalue for="2" value="Missouri" />
+          <attvalue for="3" value="-90.5770675" />
+        </attvalues>
+      </node>
+      <node id="Pulaski, New-York" label="Pulaski, New-York">
+        <attvalues>
+          <attvalue for="0" value="43.5670136" />
+          <attvalue for="1" value="Pulaski" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-76.1277027" />
+        </attvalues>
+      </node>
+      <node id="Enfield, Connecticut" label="Enfield, Connecticut">
+        <attvalues>
+          <attvalue for="0" value="41.975" />
+          <attvalue for="1" value="Enfield" />
+          <attvalue for="2" value="Connecticut" />
+          <attvalue for="3" value="-72.5494444" />
+        </attvalues>
+      </node>
+      <node id="Marblehead, Massachusetts" label="Marblehead, Massachusetts">
+        <attvalues>
+          <attvalue for="0" value="42.4999582" />
+          <attvalue for="1" value="Marblehead" />
+          <attvalue for="2" value="Massachusetts" />
+          <attvalue for="3" value="-70.8578024" />
+        </attvalues>
+      </node>
+      <node id="Divide, Montana" label="Divide, Montana">
+        <attvalues>
+          <attvalue for="0" value="45.8140865" />
+          <attvalue for="1" value="Divide" />
+          <attvalue for="2" value="Montana" />
+          <attvalue for="3" value="-112.7108367" />
+        </attvalues>
+      </node>
+      <node id="Pine-Point, Maine" label="Pine-Point, Maine">
+        <attvalues>
+          <attvalue for="0" value="43.5411953" />
+          <attvalue for="1" value="Pine-Point" />
+          <attvalue for="2" value="Maine" />
+          <attvalue for="3" value="-70.3442156" />
+        </attvalues>
+      </node>
+      <node id="Babylon, New-York" label="Babylon, New-York">
+        <attvalues>
+          <attvalue for="0" value="40.6956552" />
+          <attvalue for="1" value="Babylon" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-73.3256753" />
+        </attvalues>
+      </node>
+      <node id="Oldsmar, Florida" label="Oldsmar, Florida">
+        <attvalues>
+          <attvalue for="0" value="28.0341847" />
+          <attvalue for="1" value="Oldsmar" />
+          <attvalue for="2" value="Florida" />
+          <attvalue for="3" value="-82.6650992" />
+        </attvalues>
+      </node>
+      <node id="Bath, Maine" label="Bath, Maine">
+        <attvalues>
+          <attvalue for="0" value="43.9106353" />
+          <attvalue for="1" value="Bath" />
+          <attvalue for="2" value="Maine" />
+          <attvalue for="3" value="-69.8206023" />
+        </attvalues>
+      </node>
+      <node id="Rock-Valley, Iowa" label="Rock-Valley, Iowa">
+        <attvalues>
+          <attvalue for="0" value="43.2052594" />
+          <attvalue for="1" value="Rock-Valley" />
+          <attvalue for="2" value="Iowa" />
+          <attvalue for="3" value="-96.2950263" />
+        </attvalues>
+      </node>
+      <node id="Guilford, Connecticut" label="Guilford, Connecticut">
+        <attvalues>
+          <attvalue for="0" value="41.2827778" />
+          <attvalue for="1" value="Guilford" />
+          <attvalue for="2" value="Connecticut" />
+          <attvalue for="3" value="-72.6819444" />
+        </attvalues>
+      </node>
+      <node id="La-Porte, Indiana" label="La-Porte, Indiana">
+        <attvalues>
+          <attvalue for="0" value="41.611143" />
+          <attvalue for="1" value="La-Porte" />
+          <attvalue for="2" value="Indiana" />
+          <attvalue for="3" value="-86.7227195" />
+        </attvalues>
+      </node>
+      <node id="Gardnerville, Nevada" label="Gardnerville, Nevada">
+        <attvalues>
+          <attvalue for="0" value="38.9412959" />
+          <attvalue for="1" value="Gardnerville" />
+          <attvalue for="2" value="Nevada" />
+          <attvalue for="3" value="-119.7496216" />
+        </attvalues>
+      </node>
+      <node id="Sugarcreek, Ohio" label="Sugarcreek, Ohio">
+        <attvalues>
+          <attvalue for="0" value="40.50312" />
+          <attvalue for="1" value="Sugarcreek" />
+          <attvalue for="2" value="Ohio" />
+          <attvalue for="3" value="-81.6409582" />
+        </attvalues>
+      </node>
+      <node id="Lake-Forest-Park, Washington" label="Lake-Forest-Park, Washington">
+        <attvalues>
+          <attvalue for="0" value="47.7566327" />
+          <attvalue for="1" value="Lake-Forest-Park" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-122.2807326" />
+        </attvalues>
+      </node>
+      <node id="Auburn, New-York" label="Auburn, New-York">
+        <attvalues>
+          <attvalue for="0" value="42.9317335" />
+          <attvalue for="1" value="Auburn" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-76.5660529" />
+        </attvalues>
+      </node>
+      <node id="Saint-Peter, Minnesota" label="Saint-Peter, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="44.3258932" />
+          <attvalue for="1" value="Saint-Peter" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-93.955691" />
+        </attvalues>
+      </node>
+      <node id="Haverhill, Massachusetts" label="Haverhill, Massachusetts">
+        <attvalues>
+          <attvalue for="0" value="42.7762015" />
+          <attvalue for="1" value="Haverhill" />
+          <attvalue for="2" value="Massachusetts" />
+          <attvalue for="3" value="-71.0772796" />
+        </attvalues>
+      </node>
+      <node id="Clinton, Connecticut" label="Clinton, Connecticut">
+        <attvalues>
+          <attvalue for="0" value="41.2882208" />
+          <attvalue for="1" value="Clinton" />
+          <attvalue for="2" value="Connecticut" />
+          <attvalue for="3" value="-72.5288034" />
+        </attvalues>
+      </node>
+      <node id="Concordia, Missouri" label="Concordia, Missouri">
+        <attvalues>
+          <attvalue for="0" value="38.9833489" />
+          <attvalue for="1" value="Concordia" />
+          <attvalue for="2" value="Missouri" />
+          <attvalue for="3" value="-93.5685464" />
+        </attvalues>
+      </node>
+      <node id="Owasso, Oklahoma" label="Owasso, Oklahoma">
+        <attvalues>
+          <attvalue for="0" value="36.2695388" />
+          <attvalue for="1" value="Owasso" />
+          <attvalue for="2" value="Oklahoma" />
+          <attvalue for="3" value="-95.8547119" />
+        </attvalues>
+      </node>
+      <node id="Saint-Charles, Illinois" label="Saint-Charles, Illinois">
+        <attvalues>
+          <attvalue for="0" value="41.9141945" />
+          <attvalue for="1" value="Saint-Charles" />
+          <attvalue for="2" value="Illinois" />
+          <attvalue for="3" value="-88.3086867" />
+        </attvalues>
+      </node>
+      <node id="Frazier-Park, California" label="Frazier-Park, California">
+        <attvalues>
+          <attvalue for="0" value="34.8227556" />
+          <attvalue for="1" value="Frazier-Park" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-118.9448219" />
+        </attvalues>
+      </node>
+      <node id="Detroit-Lakes, Minnesota" label="Detroit-Lakes, Minnesota">
+        <attvalues>
+          <attvalue for="0" value="46.8171808" />
+          <attvalue for="1" value="Detroit-Lakes" />
+          <attvalue for="2" value="Minnesota" />
+          <attvalue for="3" value="-95.8453253" />
+        </attvalues>
+      </node>
+      <node id="Poulsbo, Washington" label="Poulsbo, Washington">
+        <attvalues>
+          <attvalue for="0" value="47.735928" />
+          <attvalue for="1" value="Poulsbo" />
+          <attvalue for="2" value="Washington" />
+          <attvalue for="3" value="-122.6465372" />
+        </attvalues>
+      </node>
+      <node id="Jamesburg, New-Jersey" label="Jamesburg, New-Jersey">
+        <attvalues>
+          <attvalue for="0" value="40.3526079" />
+          <attvalue for="1" value="Jamesburg" />
+          <attvalue for="2" value="New-Jersey" />
+          <attvalue for="3" value="-74.4401513" />
+        </attvalues>
+      </node>
+      <node id="Bloomfield-Hills, Michigan" label="Bloomfield-Hills, Michigan">
+        <attvalues>
+          <attvalue for="0" value="42.583645" />
+          <attvalue for="1" value="Bloomfield-Hills" />
+          <attvalue for="2" value="Michigan" />
+          <attvalue for="3" value="-83.2454883" />
+        </attvalues>
+      </node>
+      <node id="Meadview, Arizona" label="Meadview, Arizona">
+        <attvalues>
+          <attvalue for="0" value="36.002155" />
+          <attvalue for="1" value="Meadview" />
+          <attvalue for="2" value="Arizona" />
+          <attvalue for="3" value="-114.0684841" />
+        </attvalues>
+      </node>
+      <node id="Portsmouth, Ohio" label="Portsmouth, Ohio">
+        <attvalues>
+          <attvalue for="0" value="38.7317431" />
+          <attvalue for="1" value="Portsmouth" />
+          <attvalue for="2" value="Ohio" />
+          <attvalue for="3" value="-82.9976742" />
+        </attvalues>
+      </node>
+      <node id="Steubenville, Ohio" label="Steubenville, Ohio">
+        <attvalues>
+          <attvalue for="0" value="40.3697905" />
+          <attvalue for="1" value="Steubenville" />
+          <attvalue for="2" value="Ohio" />
+          <attvalue for="3" value="-80.6339638" />
+        </attvalues>
+      </node>
+      <node id="Niantic, Connecticut" label="Niantic, Connecticut">
+        <attvalues>
+          <attvalue for="0" value="41.3253756" />
+          <attvalue for="1" value="Niantic" />
+          <attvalue for="2" value="Connecticut" />
+          <attvalue for="3" value="-72.1931338" />
+        </attvalues>
+      </node>
+      <node id="Knoxville, Iowa" label="Knoxville, Iowa">
+        <attvalues>
+          <attvalue for="0" value="41.320343" />
+          <attvalue for="1" value="Knoxville" />
+          <attvalue for="2" value="Iowa" />
+          <attvalue for="3" value="-93.09967" />
+        </attvalues>
+      </node>
+      <node id="Tiburon, California" label="Tiburon, California">
+        <attvalues>
+          <attvalue for="0" value="37.8735377" />
+          <attvalue for="1" value="Tiburon" />
+          <attvalue for="2" value="California" />
+          <attvalue for="3" value="-122.4566392" />
+        </attvalues>
+      </node>
+      <node id="Victoria, Texas" label="Victoria, Texas">
+        <attvalues>
+          <attvalue for="0" value="28.7712909" />
+          <attvalue for="1" value="Victoria" />
+          <attvalue for="2" value="Texas" />
+          <attvalue for="3" value="-97.0068393" />
+        </attvalues>
+      </node>
+      <node id="Aiea, Hawaii" label="Aiea, Hawaii">
+        <attvalues>
+          <attvalue for="0" value="21.3858998" />
+          <attvalue for="1" value="Aiea" />
+          <attvalue for="2" value="Hawaii" />
+          <attvalue for="3" value="-157.9309268" />
+        </attvalues>
+      </node>
+      <node id="West-Columbia, South-Carolina" label="West-Columbia, South-Carolina">
+        <attvalues>
+          <attvalue for="0" value="33.9934867" />
+          <attvalue for="1" value="West-Columbia" />
+          <attvalue for="2" value="South-Carolina" />
+          <attvalue for="3" value="-81.0739825" />
+        </attvalues>
+      </node>
+      <node id="Highland, New-York" label="Highland, New-York">
+        <attvalues>
+          <attvalue for="0" value="41.7209267" />
+          <attvalue for="1" value="Highland" />
+          <attvalue for="2" value="New-York" />
+          <attvalue for="3" value="-73.9601382" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges />
+  </graph>
+</gexf>
